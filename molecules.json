@@ -1,0 +1,56 @@
+[
+  {
+    "wallet": "code4",
+    "hotkey": "m1",
+    "molecule": "97CE25B0B30BEDFA_ABB26BD55C0DF932_2201_DP",
+    "proteins": "1B83E26E458589C2_4B61A85CF270F130"
+  },
+  {
+    "wallet": "code3",
+    "hotkey": "m3",
+    "molecule": "308B6F77D6FDEB97_AB085DE99F184D24_2201_UN",
+    "proteins": "1B83E26E458589C2_4B61A85CF270F130"
+  },
+  {
+    "wallet": "code4",
+    "hotkey": "m3",
+    "molecule": "F14128CEDA670009_375DAB3690304399_2201_UN",
+    "proteins": "1B83E26E458589C2_4B61A85CF270F130"
+  },
+  {
+    "wallet": "code4",
+    "hotkey": "m4",
+    "molecule": "3DFC22E7A0F6D3F3_1428E003494650CE_6038_UN",
+    "proteins": "1B83E26E458589C2_4B61A85CF270F130"
+  },
+  {
+    "wallet": "code4",
+    "hotkey": "m6",
+    "molecule": "4FAC504CCD5C6297_9472AD3C4A1E03EB_2201_UN",
+    "proteins": "1B83E26E458589C2_4B61A85CF270F130"
+  },
+  {
+    "wallet": "code4",
+    "hotkey": "m2",
+    "molecule": "CC75FFE77FB6968D_C561A6EFE3A10A42_6038_UN",
+    "proteins": "1B83E26E458589C2_4B61A85CF270F130"
+  },
+  {
+    "wallet": "code3",
+    "hotkey": "m2",
+    "molecule": "19813387759CFF02_D5A4898990319D81_6039_UN",
+    "proteins": "1B83E26E458589C2_4B61A85CF270F130"
+  },
+  {
+    "wallet": "code5",
+    "hotkey": "m3",
+    "molecule": "9929118B81E2D911_A1AB085DF6BF3827_6039_UN",
+    "proteins": "1B83E26E458589C2_4B61A85CF270F130"
+  },
+  {
+    "wallet": "code5",
+    "hotkey": "m4",
+    "molecule": "17847F83E7F79178_121357F9F3E31371_6039_UN",
+    "proteins": "1B83E26E458589C2_4B61A85CF270F130"
+  }
+]

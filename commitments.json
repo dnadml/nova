@@ -1,0 +1,1743 @@
+{
+  "metadata": {
+    "netuid": 68,
+    "network": "finney",
+    "block": 5317785,
+    "timestamp": "2025-04-09T22:30:49.246425",
+    "total_commitments": 216,
+    "non_empty_commitments": 216,
+    "current_epoch": 14771,
+    "epoch_length": 360,
+    "protein_code": "P42732|Q8Z044"
+  },
+  "commitments": {
+    "5G15zSKmgdNNYjw7XxS9vh6h3raB84qhqDkWVRRvZ2C3jYQp": {
+      "uid": 1,
+      "hotkey": "5G15zSKmgdNNYjw7XxS9vh6h3raB84qhqDkWVRRvZ2C3jYQp",
+      "block": 5317560,
+      "data": "commander-hawk/68/main/eee250e6aa2655268068.txt",
+      "stake": 296.0216369628906,
+      "time": "2025-04-09T22:30:49.244839"
+    },
+    "5D4pKLztjoZGTRY2VfnZXPo9TyNZpb4Z74r5FM3RdpA9ZpUw": {
+      "uid": 2,
+      "hotkey": "5D4pKLztjoZGTRY2VfnZXPo9TyNZpb4Z74r5FM3RdpA9ZpUw",
+      "block": 5317200,
+      "data": "commander-hawk/68/main/0da471e213f757eb8ff9.txt",
+      "stake": 148.0108184814453,
+      "time": "2025-04-09T22:30:49.244858"
+    },
+    "5FshdqyLf1dSx3ktJWJrimhnCjqNwXbJAkYE54TV5hrccB76": {
+      "uid": 3,
+      "hotkey": "5FshdqyLf1dSx3ktJWJrimhnCjqNwXbJAkYE54TV5hrccB76",
+      "block": 5317560,
+      "data": "B721nova/submission/main/3ca9dd808cd0069a9e02.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.244862"
+    },
+    "5DtdNjA9cMMJoCiEdi6VJKsfkLWJ5cgLHb7UsnSxNpSoTiN2": {
+      "uid": 4,
+      "hotkey": "5DtdNjA9cMMJoCiEdi6VJKsfkLWJ5cgLHb7UsnSxNpSoTiN2",
+      "block": 5317560,
+      "data": "B721nova/submission/main/a8c89a948bea2deced09.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.244867"
+    },
+    "5F1tQr8K2VfBr2pG5MpAQf62n5xSAsjuCZheQUy82csaPavg": {
+      "uid": 5,
+      "hotkey": "5F1tQr8K2VfBr2pG5MpAQf62n5xSAsjuCZheQUy82csaPavg",
+      "block": 5186161,
+      "data": "P42732|Q8Z044",
+      "stake": 900248.0,
+      "time": "2025-04-09T22:30:49.244872"
+    },
+    "5CZu6Rr7MhTdQ14wdBtzv1bjT2AJSLXDnw48q3PJbPzUPjJU": {
+      "uid": 6,
+      "hotkey": "5CZu6Rr7MhTdQ14wdBtzv1bjT2AJSLXDnw48q3PJbPzUPjJU",
+      "block": 5317564,
+      "data": "commander-hawk/68/main/1fe346ee34507512b98c.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.244876"
+    },
+    "5GWShBKPRonvbHTKspepGbTniP8zV54jrmmb63XfwTcgzz2u": {
+      "uid": 7,
+      "hotkey": "5GWShBKPRonvbHTKspepGbTniP8zV54jrmmb63XfwTcgzz2u",
+      "block": 5317560,
+      "data": "B721nova/submission/main/086af5d020a92cc368d5.txt",
+      "stake": 9.999999717180685e-10,
+      "time": "2025-04-09T22:30:49.244880"
+    },
+    "5F25pDM2Eq4KHTPGJRNCz8vzNbruJQiVZjuFsMMbCJ1sYxDP": {
+      "uid": 8,
+      "hotkey": "5F25pDM2Eq4KHTPGJRNCz8vzNbruJQiVZjuFsMMbCJ1sYxDP",
+      "block": 5317560,
+      "data": "B721nova/submission/main/630ca2852da3cab543fa.txt",
+      "stake": 148.0108184814453,
+      "time": "2025-04-09T22:30:49.244885"
+    },
+    "5Fq7RuSmUo2BjPzku4XqK3iyeHj2Thg7GTbRiFbnVkzSwEvW": {
+      "uid": 9,
+      "hotkey": "5Fq7RuSmUo2BjPzku4XqK3iyeHj2Thg7GTbRiFbnVkzSwEvW",
+      "block": 5317560,
+      "data": "B721nova/submission/main/52ceb0ad5743c05e08c5.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.244889"
+    },
+    "5C8BidmCNV4oDtvYRQmBsJtxAydkQwtsMnzwNz26zBP1F7g2": {
+      "uid": 10,
+      "hotkey": "5C8BidmCNV4oDtvYRQmBsJtxAydkQwtsMnzwNz26zBP1F7g2",
+      "block": 5317560,
+      "data": "B721nova/submission/main/927ef4c9512c918d4415.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.244894"
+    },
+    "5CVUA2ozYpsPVV4VeuSGS9qvF6Sm7TYJHVzaSTbHnuahakna": {
+      "uid": 11,
+      "hotkey": "5CVUA2ozYpsPVV4VeuSGS9qvF6Sm7TYJHVzaSTbHnuahakna",
+      "block": 5317560,
+      "data": "B721nova/submission/main/646b4dc4a98d98269136.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.244899"
+    },
+    "5CJ21Uzw2fFMPhtCyAZJXpfmjktwYQtiKKV4d5ANnNuAAXD8": {
+      "uid": 12,
+      "hotkey": "5CJ21Uzw2fFMPhtCyAZJXpfmjktwYQtiKKV4d5ANnNuAAXD8",
+      "block": 5317560,
+      "data": "B721nova/submission/main/4fbc0c44d821fc556575.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.244903"
+    },
+    "5CLpC1wp1PchbTNnBn3gyU4QP5VxRWqu5EjoEk8YCdsLCjz7": {
+      "uid": 13,
+      "hotkey": "5CLpC1wp1PchbTNnBn3gyU4QP5VxRWqu5EjoEk8YCdsLCjz7",
+      "block": 5316483,
+      "data": "B721nova/submission/main/9cef2ada0afc9ce53ba0.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.244908"
+    },
+    "5DLAaZhg2Kaa4McL1HZVagmAb4sUUKha2EY8m21Ejrbwhi3V": {
+      "uid": 14,
+      "hotkey": "5DLAaZhg2Kaa4McL1HZVagmAb4sUUKha2EY8m21Ejrbwhi3V",
+      "block": 5317563,
+      "data": "tellorian/sn68_submit/main/6ff3b206e30c89910a29.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.244913"
+    },
+    "5H3ZL5fRjqtaSyHnYpxKh1XDNNTWXwztQyidfAhKFtvroeUu": {
+      "uid": 15,
+      "hotkey": "5H3ZL5fRjqtaSyHnYpxKh1XDNNTWXwztQyidfAhKFtvroeUu",
+      "block": 5316491,
+      "data": "B721nova/submission/main/69f75b5db2c5fdc0cff2.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.244917"
+    },
+    "5GphXsz4RP1ELQfnwimj4prdRChqWa4qm4F8t4xLzeeoNJR2": {
+      "uid": 16,
+      "hotkey": "5GphXsz4RP1ELQfnwimj4prdRChqWa4qm4F8t4xLzeeoNJR2",
+      "block": 5316492,
+      "data": "B721nova/submission/main/d6e5437036db28cdf039.txt",
+      "stake": 148.0108184814453,
+      "time": "2025-04-09T22:30:49.244922"
+    },
+    "5FYkD2zF1EHKMGyxL1NJJohdq5xNGrJYVkgqW5chYbePTU6J": {
+      "uid": 17,
+      "hotkey": "5FYkD2zF1EHKMGyxL1NJJohdq5xNGrJYVkgqW5chYbePTU6J",
+      "block": 5316123,
+      "data": "B721nova/submission/main/b824b6c2e0e58d2d1bb5.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.244926"
+    },
+    "5EySKnNTteFpkh8y8hi7HjS2hU3X7dwDZBTe6afFFxWJAWjG": {
+      "uid": 18,
+      "hotkey": "5EySKnNTteFpkh8y8hi7HjS2hU3X7dwDZBTe6afFFxWJAWjG",
+      "block": 5316131,
+      "data": "B721nova/submission/main/f42420e1ffebe2ca5099.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.244931"
+    },
+    "5Da9ZqM6B3MJ4abYKEfofidi14jWTPNRj9zXHHNYpPrgkaot": {
+      "uid": 19,
+      "hotkey": "5Da9ZqM6B3MJ4abYKEfofidi14jWTPNRj9zXHHNYpPrgkaot",
+      "block": 5317560,
+      "data": "B721nova/submission/main/e43f91be93e95f7c87e2.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.244935"
+    },
+    "5DCjrujrirvYPh8fX8Zcm6T5tVtQ5uup4PUGRgdgVjYwYqwR": {
+      "uid": 20,
+      "hotkey": "5DCjrujrirvYPh8fX8Zcm6T5tVtQ5uup4PUGRgdgVjYwYqwR",
+      "block": 5317560,
+      "data": "B721nova/submission/main/55e35b68382f6d4f06f1.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.244940"
+    },
+    "5Eh7NYegeWuZdd9A5xLn9ban2CC9V9NPS21vYYZv8VjYTPZS": {
+      "uid": 21,
+      "hotkey": "5Eh7NYegeWuZdd9A5xLn9ban2CC9V9NPS21vYYZv8VjYTPZS",
+      "block": 5317560,
+      "data": "B721nova/submission/main/0fa0b0a193c0b1f2d657.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.244944"
+    },
+    "5GEsctfsRgZHHk5BEcUhWwJtoHn5KZeKwCKyen11dfRE4kAK": {
+      "uid": 22,
+      "hotkey": "5GEsctfsRgZHHk5BEcUhWwJtoHn5KZeKwCKyen11dfRE4kAK",
+      "block": 5122800,
+      "data": "E9653C1D2EFD4C7B_E82DFF38C994D575_7019_DP",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.244949"
+    },
+    "5CQ4gbJPie3q1jGAz1xg3JMjBCwndcb7EoZGksTyNBihny3a": {
+      "uid": 23,
+      "hotkey": "5CQ4gbJPie3q1jGAz1xg3JMjBCwndcb7EoZGksTyNBihny3a",
+      "block": 5305324,
+      "data": "tellorian/sn68_submit/main/f1c441e00ebd5e5dc0f1.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.244955"
+    },
+    "5FuiHUaCEbrNiGuC568iokN8io3un9z8cZgAQmM1BUW9H8ho": {
+      "uid": 25,
+      "hotkey": "5FuiHUaCEbrNiGuC568iokN8io3un9z8cZgAQmM1BUW9H8ho",
+      "block": 5317563,
+      "data": "commander-hawk/68/main/fcb35122654269af809c.txt",
+      "stake": 148.0108184814453,
+      "time": "2025-04-09T22:30:49.244960"
+    },
+    "5CdEvSefp61Bw27qwRj2bRKq6ffYQtcYW6KepANnfnaFNKSV": {
+      "uid": 26,
+      "hotkey": "5CdEvSefp61Bw27qwRj2bRKq6ffYQtcYW6KepANnfnaFNKSV",
+      "block": 5317200,
+      "data": "commander-hawk/68/main/3e0b2c43b7d2dabe67bb.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.244964"
+    },
+    "5DUdsErSFHXVi8A6rR1B7JSaiwFCEbcQT1apqnTeq9HjAGrp": {
+      "uid": 27,
+      "hotkey": "5DUdsErSFHXVi8A6rR1B7JSaiwFCEbcQT1apqnTeq9HjAGrp",
+      "block": 5317560,
+      "data": "commander-hawk/68/main/96604228e5a0ac1fc008.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.244969"
+    },
+    "5DS7Wyrvb14Q53gDhUqCJ9xGRy25rbwiB6UuKAXMs7o77kzh": {
+      "uid": 28,
+      "hotkey": "5DS7Wyrvb14Q53gDhUqCJ9xGRy25rbwiB6UuKAXMs7o77kzh",
+      "block": 5316380,
+      "data": "hamletv1/nova/main/875f0fff69b2cd9a7574.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.244974"
+    },
+    "5FESNTY8BvfTo7PL5c1L9xE97ncWP8wnUUXV9uXg22Y4bFSQ": {
+      "uid": 29,
+      "hotkey": "5FESNTY8BvfTo7PL5c1L9xE97ncWP8wnUUXV9uXg22Y4bFSQ",
+      "block": 5317560,
+      "data": "commander-hawk/68/main/b6110a3fd752f3afcbc6.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.244979"
+    },
+    "5HbPxDLMPxuZCrVt8LW2RukEEjEBqT3bnaJPjzdJLeptEWsn": {
+      "uid": 30,
+      "hotkey": "5HbPxDLMPxuZCrVt8LW2RukEEjEBqT3bnaJPjzdJLeptEWsn",
+      "block": 5317200,
+      "data": "commander-hawk/68/main/9639e0b2f160320d2166.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.244983"
+    },
+    "5G67Hib53CXJNdbNCRmCkYouFBccNvD61nkThUMYxuQ9rDuS": {
+      "uid": 31,
+      "hotkey": "5G67Hib53CXJNdbNCRmCkYouFBccNvD61nkThUMYxuQ9rDuS",
+      "block": 5317563,
+      "data": "commander-hawk/68/main/2cea1910c662b63c4f85.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.244988"
+    },
+    "5ELRR7UBv9Hv16AuMabqdjoGnDnjESn4HbVAUq3dLZfoAPRT": {
+      "uid": 32,
+      "hotkey": "5ELRR7UBv9Hv16AuMabqdjoGnDnjESn4HbVAUq3dLZfoAPRT",
+      "block": 5317564,
+      "data": "commander-hawk/68/main/29c674864954b1c8b934.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.244993"
+    },
+    "5GzeL5ETboyBwjJZz5ugkofiVxdvGeAgPjYE4NLqY1B8MVsd": {
+      "uid": 33,
+      "hotkey": "5GzeL5ETboyBwjJZz5ugkofiVxdvGeAgPjYE4NLqY1B8MVsd",
+      "block": 5317560,
+      "data": "commander-hawk/68/main/1bd2a88b5b0e951a7d0c.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245000"
+    },
+    "5ETijtejmLwcouGE8p3ptaXk2EBrFdj6gRiqEPNfdMy9nfGk": {
+      "uid": 34,
+      "hotkey": "5ETijtejmLwcouGE8p3ptaXk2EBrFdj6gRiqEPNfdMy9nfGk",
+      "block": 5317200,
+      "data": "commander-hawk/68/main/1084987998d8e7be9277.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245004"
+    },
+    "5ExYoTGPTYdihB9Wwy1GVxHS4PqiVuYzzkc2u6f6c2Nb5Kxq": {
+      "uid": 35,
+      "hotkey": "5ExYoTGPTYdihB9Wwy1GVxHS4PqiVuYzzkc2u6f6c2Nb5Kxq",
+      "block": 5317560,
+      "data": "commander-hawk/68/main/1693de9aa77adee26136.txt",
+      "stake": 148.0108184814453,
+      "time": "2025-04-09T22:30:49.245009"
+    },
+    "5Gn3bBxSu8cbbd4T6TiSYZkwrRjEtb6gxDv6YCmg6yUJS2sF": {
+      "uid": 36,
+      "hotkey": "5Gn3bBxSu8cbbd4T6TiSYZkwrRjEtb6gxDv6YCmg6yUJS2sF",
+      "block": 5317563,
+      "data": "commander-hawk/68/main/091834041faa1e9480fe.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245013"
+    },
+    "5CrCB9vUfeuQxutvGmmCg3MD2tXGhoM2rCqKjhD4zYqhuGoa": {
+      "uid": 37,
+      "hotkey": "5CrCB9vUfeuQxutvGmmCg3MD2tXGhoM2rCqKjhD4zYqhuGoa",
+      "block": 5317200,
+      "data": "commander-hawk/68/main/42c4148fad89e476b75c.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245018"
+    },
+    "5FWzhc9o4LRgafanwW2wGt8DRgFcGsNJ7JC4HTu9TQruFHo4": {
+      "uid": 38,
+      "hotkey": "5FWzhc9o4LRgafanwW2wGt8DRgFcGsNJ7JC4HTu9TQruFHo4",
+      "block": 5317723,
+      "data": "nathanhoang102/sn68_07_18/main/6a58df37a06d1540c645.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245023"
+    },
+    "5GLPFgMpb1WuCL8mydtta2suCedR9sDYxYmUDb714dvm1Kgf": {
+      "uid": 39,
+      "hotkey": "5GLPFgMpb1WuCL8mydtta2suCedR9sDYxYmUDb714dvm1Kgf",
+      "block": 5317560,
+      "data": "commander-hawk/68/main/b37eed7064daee21c89e.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245028"
+    },
+    "5GTZtQLwZyxRXByjdzDj1GrjQJ76HrZNH3g5RNaaAbPcxjUw": {
+      "uid": 40,
+      "hotkey": "5GTZtQLwZyxRXByjdzDj1GrjQJ76HrZNH3g5RNaaAbPcxjUw",
+      "block": 5317200,
+      "data": "commander-hawk/68/main/73c3016ed12523880966.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245032"
+    },
+    "5Dr5h3nTAoPmxPa4t62wVQ75zCMjTiSTjJtTHd5VwjCP8DSN": {
+      "uid": 41,
+      "hotkey": "5Dr5h3nTAoPmxPa4t62wVQ75zCMjTiSTjJtTHd5VwjCP8DSN",
+      "block": 5317563,
+      "data": "commander-hawk/68/main/af260be4d40fea685793.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245037"
+    },
+    "5GP3FL29MXTJbmfH5aySFgvGe6ABKJ5FQVcBemWZUmo1vj3s": {
+      "uid": 42,
+      "hotkey": "5GP3FL29MXTJbmfH5aySFgvGe6ABKJ5FQVcBemWZUmo1vj3s",
+      "block": 5317560,
+      "data": "commander-hawk/68/main/8d00d09394f2f7be2bc6.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245042"
+    },
+    "5HKF3RZBytcbbhSdiwrVx8NA6P7o9aNnnYP3Sq2ui4Ju1ci2": {
+      "uid": 43,
+      "hotkey": "5HKF3RZBytcbbhSdiwrVx8NA6P7o9aNnnYP3Sq2ui4Ju1ci2",
+      "block": 5317200,
+      "data": "commander-hawk/68/main/2cc3ab915fde4de05978.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245047"
+    },
+    "5EUsvFr6D2NN7ayHpzvKcLc8VyRpsVWXEcGQ24jos3XUjBbF": {
+      "uid": 44,
+      "hotkey": "5EUsvFr6D2NN7ayHpzvKcLc8VyRpsVWXEcGQ24jos3XUjBbF",
+      "block": 5317560,
+      "data": "commander-hawk/68/main/cc7fe6cfaa06c709c133.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245051"
+    },
+    "5H9FT88A61JaLcsvv8YMAcJVcre9Rc2ufF4KYb3n2mvWwkZc": {
+      "uid": 45,
+      "hotkey": "5H9FT88A61JaLcsvv8YMAcJVcre9Rc2ufF4KYb3n2mvWwkZc",
+      "block": 5317667,
+      "data": "chenjiaozhu/nova-commit/main/c170c9203d72a7323f5e.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245056"
+    },
+    "5HinA17hxCXEWLnGjXooEZZK9Gs4Vthjd6QuWbMmFAmAnVCo": {
+      "uid": 46,
+      "hotkey": "5HinA17hxCXEWLnGjXooEZZK9Gs4Vthjd6QuWbMmFAmAnVCo",
+      "block": 5300660,
+      "data": "thangln96/nova_prj/master/https://github.com/thangln96/nova_prj/cd3b2ec6fe8b3bc36da7.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245061"
+    },
+    "5G3xtj755xqvos34Z5sbtwvVk4Fmb9TVYA8XRgihnnuvevUf": {
+      "uid": 47,
+      "hotkey": "5G3xtj755xqvos34Z5sbtwvVk4Fmb9TVYA8XRgihnnuvevUf",
+      "block": 5317200,
+      "data": "commander-hawk/68/main/2450f5af3cd028a59aeb.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245065"
+    },
+    "5CiFJZN2jNsSyUE6tLMaqKU7WSczXphP6VVbyuDoNfm4g7yQ": {
+      "uid": 48,
+      "hotkey": "5CiFJZN2jNsSyUE6tLMaqKU7WSczXphP6VVbyuDoNfm4g7yQ",
+      "block": 5317567,
+      "data": "commander-hawk/68/main/94960c263bed3b3a81e1.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245070"
+    },
+    "5G94cD92rHJkKkBxnuCjzPHmTjXeEWhWr44THWxbN2wTCpjC": {
+      "uid": 49,
+      "hotkey": "5G94cD92rHJkKkBxnuCjzPHmTjXeEWhWr44THWxbN2wTCpjC",
+      "block": 5317206,
+      "data": "commander-hawk/68/main/fa84be69975c46994f63.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245075"
+    },
+    "5H4PQoT8cnTpX6cPSkjRWQDnjmZ2phJYE6VhnQmU3Wg3RUUQ": {
+      "uid": 50,
+      "hotkey": "5H4PQoT8cnTpX6cPSkjRWQDnjmZ2phJYE6VhnQmU3Wg3RUUQ",
+      "block": 5317269,
+      "data": "commander-hawk/68/main/4a7f90b7a150f0b27c4c.txt",
+      "stake": 148.0108184814453,
+      "time": "2025-04-09T22:30:49.245079"
+    },
+    "5HmmSjyd792EHZTcgtsgGpu2qgQ7L88i1c3sufcYzyS8dvik": {
+      "uid": 51,
+      "hotkey": "5HmmSjyd792EHZTcgtsgGpu2qgQ7L88i1c3sufcYzyS8dvik",
+      "block": 5317265,
+      "data": "commander-hawk/68/main/8505432194df5e3d5852.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245084"
+    },
+    "5G6UfnJE1TyUH7UC9XHFadGb1rvWeUGYnEaqG7N6Sb5Rmdbh": {
+      "uid": 52,
+      "hotkey": "5G6UfnJE1TyUH7UC9XHFadGb1rvWeUGYnEaqG7N6Sb5Rmdbh",
+      "block": 5317564,
+      "data": "commander-hawk/68/main/4cbc6e361f8b50290c09.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245088"
+    },
+    "5EEeht2RHjZxg4T4QeJncBmeCfcikPpRV25LW4qCfLr9x488": {
+      "uid": 53,
+      "hotkey": "5EEeht2RHjZxg4T4QeJncBmeCfcikPpRV25LW4qCfLr9x488",
+      "block": 5317255,
+      "data": "commander-hawk/68/main/44b56aed0072d3c3cd17.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245092"
+    },
+    "5GRQVqfzuURkU8Bhp94ADd6j13DCgzZxixKqFHrWDH6ynYbt": {
+      "uid": 54,
+      "hotkey": "5GRQVqfzuURkU8Bhp94ADd6j13DCgzZxixKqFHrWDH6ynYbt",
+      "block": 5317262,
+      "data": "commander-hawk/68/main/fe760865e69e2525ed8e.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245097"
+    },
+    "5FXDwSuaYP2XdpsGUpX6jrJNRDCzM1uUMNY12UKc79eRzqdg": {
+      "uid": 55,
+      "hotkey": "5FXDwSuaYP2XdpsGUpX6jrJNRDCzM1uUMNY12UKc79eRzqdg",
+      "block": 5317597,
+      "data": "nova-miner/nova/main/68abe64a3701d0ef420a.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245102"
+    },
+    "5HKmwDdMSoJvUZwa7bHR79PGdQioGEnjTjEAWLRQGFNaPUcL": {
+      "uid": 56,
+      "hotkey": "5HKmwDdMSoJvUZwa7bHR79PGdQioGEnjTjEAWLRQGFNaPUcL",
+      "block": 5317560,
+      "data": "commander-hawk/68/main/bc91b9b95339b38c1890.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245106"
+    },
+    "5CDpffCsNdUGskqK3HXYypuGLMY4MU4RWwHPt8RWh2hsTR6i": {
+      "uid": 57,
+      "hotkey": "5CDpffCsNdUGskqK3HXYypuGLMY4MU4RWwHPt8RWh2hsTR6i",
+      "block": 5317200,
+      "data": "commander-hawk/68/main/28ed2144f193eaa22a4f.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245110"
+    },
+    "5DUpaMa8pwWyLg1P32UgSaXVdd3Y3KE7CFLLhRAFJNZTLi9k": {
+      "uid": 58,
+      "hotkey": "5DUpaMa8pwWyLg1P32UgSaXVdd3Y3KE7CFLLhRAFJNZTLi9k",
+      "block": 5317560,
+      "data": "commander-hawk/68/main/cb795dcae1eeac66fecd.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245114"
+    },
+    "5G6imHgHYjwtjitPKT3XELmgJ5peWTHtvuxiE13druzHzaq3": {
+      "uid": 59,
+      "hotkey": "5G6imHgHYjwtjitPKT3XELmgJ5peWTHtvuxiE13druzHzaq3",
+      "block": 5317200,
+      "data": "commander-hawk/68/main/1dd3d6a821c75377df01.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245119"
+    },
+    "5ECce8eBeL8EUCDBYrrsdzDCdEcSWbFVhAqdSmPA4FHdxxn1": {
+      "uid": 60,
+      "hotkey": "5ECce8eBeL8EUCDBYrrsdzDCdEcSWbFVhAqdSmPA4FHdxxn1",
+      "block": 5317560,
+      "data": "commander-hawk/68/main/3757dd7dc497d9dc8b1a.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245123"
+    },
+    "5F4PWDxJbKR6bJatx7NR4i9wwyTXyvwStXcmHeZTM9WPPvV9": {
+      "uid": 61,
+      "hotkey": "5F4PWDxJbKR6bJatx7NR4i9wwyTXyvwStXcmHeZTM9WPPvV9",
+      "block": 5317200,
+      "data": "commander-hawk/68/main/00967ebce2db116e9acb.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245128"
+    },
+    "5G1b1TjTiTP7TZfHUKnzBmEFXCXZkAAQQP2wC8iYo9dEdnhY": {
+      "uid": 62,
+      "hotkey": "5G1b1TjTiTP7TZfHUKnzBmEFXCXZkAAQQP2wC8iYo9dEdnhY",
+      "block": 5317560,
+      "data": "commander-hawk/68/main/7ff604af3bb13635d226.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245132"
+    },
+    "5EvLWVm513i3rXXjBhAYK8XcCMArWDssoEW2Nsjz2u5Xs74K": {
+      "uid": 63,
+      "hotkey": "5EvLWVm513i3rXXjBhAYK8XcCMArWDssoEW2Nsjz2u5Xs74K",
+      "block": 5317200,
+      "data": "commander-hawk/68/main/3dfe5787abaed9bfd8eb.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245136"
+    },
+    "5G23fiDaMB7W1MxVPX5yGqu94hGz3YBBMCp2oEvyTpet238x": {
+      "uid": 64,
+      "hotkey": "5G23fiDaMB7W1MxVPX5yGqu94hGz3YBBMCp2oEvyTpet238x",
+      "block": 5317560,
+      "data": "commander-hawk/68/main/22dbc96f16cd7e8dffa6.txt",
+      "stake": 9.999999717180685e-10,
+      "time": "2025-04-09T22:30:49.245141"
+    },
+    "5HQLxpKwUX6LCLhHHFn63LeK22GwaJm7CbKNtDvwfd6tDuNy": {
+      "uid": 65,
+      "hotkey": "5HQLxpKwUX6LCLhHHFn63LeK22GwaJm7CbKNtDvwfd6tDuNy",
+      "block": 5317200,
+      "data": "syless44/nova_commits/main/aa0330942e355373d0c6.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245145"
+    },
+    "5DCRnHEv15Qkowzf7YTLWweQxuTMx5jgW7Lpe1vjYBAdoXbF": {
+      "uid": 66,
+      "hotkey": "5DCRnHEv15Qkowzf7YTLWweQxuTMx5jgW7Lpe1vjYBAdoXbF",
+      "block": 5314321,
+      "data": "76ITIX/nova-scores/main/36c78f60225fb0017804.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245149"
+    },
+    "5HE2DTJ3Y6C7RcqNMxjkVxVhi5jMYsgRUDGoHGZSNsE1Exqd": {
+      "uid": 67,
+      "hotkey": "5HE2DTJ3Y6C7RcqNMxjkVxVhi5jMYsgRUDGoHGZSNsE1Exqd",
+      "block": 5317560,
+      "data": "B721nova/submission/main/23363f99608892637199.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245153"
+    },
+    "5HjNm5GSZLTVeqiWwrYkwA2hN8eVFQUb4RqhQSpQK1xJRGPu": {
+      "uid": 68,
+      "hotkey": "5HjNm5GSZLTVeqiWwrYkwA2hN8eVFQUb4RqhQSpQK1xJRGPu",
+      "block": 5317560,
+      "data": "B721nova/submission/main/6c8af3ac5b578127330e.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245158"
+    },
+    "5HTeB7pPndGcyiB9FyMcy98WxDnokHgW7mzk7aMBCZ4ykuFC": {
+      "uid": 69,
+      "hotkey": "5HTeB7pPndGcyiB9FyMcy98WxDnokHgW7mzk7aMBCZ4ykuFC",
+      "block": 5317200,
+      "data": "commander-hawk/68/main/ececcb2abc6aed2ba3b5.txt",
+      "stake": 9.999999717180685e-10,
+      "time": "2025-04-09T22:30:49.245162"
+    },
+    "5Gzj8TFVnDevnbggjhAg7eFtkpx23pGssTawFrhLoVNySgZs": {
+      "uid": 70,
+      "hotkey": "5Gzj8TFVnDevnbggjhAg7eFtkpx23pGssTawFrhLoVNySgZs",
+      "block": 5317560,
+      "data": "commander-hawk/68/main/4e99d434d71d1a27383a.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245167"
+    },
+    "5DyvSBgHB2NU9cjGBJ7fJJC2k8SRUMfivm5BbFDdabSnyFgb": {
+      "uid": 71,
+      "hotkey": "5DyvSBgHB2NU9cjGBJ7fJJC2k8SRUMfivm5BbFDdabSnyFgb",
+      "block": 5317200,
+      "data": "commander-hawk/68/main/4f93835b5ab2bc5f66fc.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245171"
+    },
+    "5EEorVqzPoL2HvWAjNnPPZU3QdxGKXC355JzrFNptV9HrNb9": {
+      "uid": 72,
+      "hotkey": "5EEorVqzPoL2HvWAjNnPPZU3QdxGKXC355JzrFNptV9HrNb9",
+      "block": 5317560,
+      "data": "commander-hawk/68/main/c4ea12026ea9b7f9cdac.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245176"
+    },
+    "5HQb1PgfdSuNxhNniBA7YCWHP2kV9F67EXT94TzABFPskUvS": {
+      "uid": 73,
+      "hotkey": "5HQb1PgfdSuNxhNniBA7YCWHP2kV9F67EXT94TzABFPskUvS",
+      "block": 5317200,
+      "data": "commander-hawk/68/main/239ededc66363119cb91.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245180"
+    },
+    "5Fc3yEQJ8kFUdy8HcKRKT6TiB7aFzoWsHUTiB36d7UfPteJb": {
+      "uid": 74,
+      "hotkey": "5Fc3yEQJ8kFUdy8HcKRKT6TiB7aFzoWsHUTiB36d7UfPteJb",
+      "block": 5317560,
+      "data": "commander-hawk/68/main/488b23c5d744a47e8477.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245185"
+    },
+    "5GMyqLhuCq3oCsQPU7oB1jaRXfWAbXxHzzLVsE54XzXsnUXs": {
+      "uid": 75,
+      "hotkey": "5GMyqLhuCq3oCsQPU7oB1jaRXfWAbXxHzzLVsE54XzXsnUXs",
+      "block": 5317727,
+      "data": "nathanhoang102/sn68_08_01/main/3d4c99c2915f3a8a1580.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245190"
+    },
+    "5EALVk5GjGimZQuqYZ8xFLL21RVcZa9ko4V4cSUdce953eCJ": {
+      "uid": 76,
+      "hotkey": "5EALVk5GjGimZQuqYZ8xFLL21RVcZa9ko4V4cSUdce953eCJ",
+      "block": 5317728,
+      "data": "nathanhoang102/sn68_08_03/main/76c8fcbe343dc460eeeb.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245194"
+    },
+    "5EvwRFYKiMS7LHUqmPDGt1HN8LCDJNuixgYJT8n1zaZ3R1Zj": {
+      "uid": 77,
+      "hotkey": "5EvwRFYKiMS7LHUqmPDGt1HN8LCDJNuixgYJT8n1zaZ3R1Zj",
+      "block": 5317740,
+      "data": "nathanhoang102/sn68_08_05/main/17dd801a8f3fd36ca7c5.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245198"
+    },
+    "5HN7LMy7TjU8dDmeRTb3t6i6YHvEBPK25mMgWospPoj3j3L1": {
+      "uid": 78,
+      "hotkey": "5HN7LMy7TjU8dDmeRTb3t6i6YHvEBPK25mMgWospPoj3j3L1",
+      "block": 5317748,
+      "data": "nathanhoang102/sn68_08_02/main/100ab206743b45781d3d.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245202"
+    },
+    "5ETwGqi54t6AxwVb7e5qV9qJffD39ZpxdNQWGacM3k9tZRLD": {
+      "uid": 79,
+      "hotkey": "5ETwGqi54t6AxwVb7e5qV9qJffD39ZpxdNQWGacM3k9tZRLD",
+      "block": 5317560,
+      "data": "B721nova/submission/main/56a6e7047daf12998872.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245206"
+    },
+    "5CdGfxgUb24HJBYBV4pax9ECyT3DDXqFVPBqxhcM4g7CNCg5": {
+      "uid": 80,
+      "hotkey": "5CdGfxgUb24HJBYBV4pax9ECyT3DDXqFVPBqxhcM4g7CNCg5",
+      "block": 5317215,
+      "data": "nova-miner/nova/main/3691520c49c51e7b6630.txt",
+      "stake": 148.0108184814453,
+      "time": "2025-04-09T22:30:49.245211"
+    },
+    "5F4Y4f1Ct2peHeMxRXUkReX1HwY5prUhVQ336fjwH2jGgcr1": {
+      "uid": 81,
+      "hotkey": "5F4Y4f1Ct2peHeMxRXUkReX1HwY5prUhVQ336fjwH2jGgcr1",
+      "block": 5317560,
+      "data": "B721nova/submission/main/3084e2ec799326e92b5d.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245215"
+    },
+    "5E4oRE2SFnLFueuLLMuMPUpFYddg2exwwkuHLpdgZcE8b8zq": {
+      "uid": 82,
+      "hotkey": "5E4oRE2SFnLFueuLLMuMPUpFYddg2exwwkuHLpdgZcE8b8zq",
+      "block": 5316986,
+      "data": "nova-miner/nova/main/a5d2ddcf4beebbb71ac1.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245219"
+    },
+    "5GeKBN94qAYnWmHhDd3MMdMh53GzTQVyE8n8JQA2AusZuF4b": {
+      "uid": 83,
+      "hotkey": "5GeKBN94qAYnWmHhDd3MMdMh53GzTQVyE8n8JQA2AusZuF4b",
+      "block": 5317678,
+      "data": "nova-miner/nova/main/71008f5508532b399eb5.txt",
+      "stake": 148.0108184814453,
+      "time": "2025-04-09T22:30:49.245224"
+    },
+    "5CqTmKoV8CAW2jk6ycGPJKHrxkQiHxTWrAbQ75ArQHMpuYZe": {
+      "uid": 84,
+      "hotkey": "5CqTmKoV8CAW2jk6ycGPJKHrxkQiHxTWrAbQ75ArQHMpuYZe",
+      "block": 5316454,
+      "data": "B721nova/submission/main/7a21fb130bc9f818cbf5.txt",
+      "stake": 9.999999717180685e-10,
+      "time": "2025-04-09T22:30:49.245229"
+    },
+    "5EWYUt7fy2rjaGyK6mtZ6pnHBepJi69ss1jEURUaxu3LzYRg": {
+      "uid": 85,
+      "hotkey": "5EWYUt7fy2rjaGyK6mtZ6pnHBepJi69ss1jEURUaxu3LzYRg",
+      "block": 5245996,
+      "data": "LLystrblu/sn68/main/27f0d16bc1f50077ed91.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245233"
+    },
+    "5GRVB14tshddbVfrujvA8SR9BgeVNjBXMFN5t8GrN7sGBvv3": {
+      "uid": 86,
+      "hotkey": "5GRVB14tshddbVfrujvA8SR9BgeVNjBXMFN5t8GrN7sGBvv3",
+      "block": 5246364,
+      "data": "LLystrblu/sn68/main/084520f6d672ff39c365.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245238"
+    },
+    "5H1ShoiMBfMozEV375vxdgVt5vkGvQix65QyJcFigrm5H756": {
+      "uid": 87,
+      "hotkey": "5H1ShoiMBfMozEV375vxdgVt5vkGvQix65QyJcFigrm5H756",
+      "block": 5246373,
+      "data": "LLystrblu/sn68/main/c8193f4d02f4aea8009d.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245242"
+    },
+    "5DqPRfMffMQpyV1LTAm8YUcr84tASUQYChQdRFewzXW1dUGj": {
+      "uid": 88,
+      "hotkey": "5DqPRfMffMQpyV1LTAm8YUcr84tASUQYChQdRFewzXW1dUGj",
+      "block": 5317560,
+      "data": "B721nova/submission/main/de3c8d2c49027851dae5.txt",
+      "stake": 4.141508102416992,
+      "time": "2025-04-09T22:30:49.245247"
+    },
+    "5E1kfSnhkFwo9a6ahPNRUX5Xv4LmNe9oTsTeSPNcsHihJaoi": {
+      "uid": 89,
+      "hotkey": "5E1kfSnhkFwo9a6ahPNRUX5Xv4LmNe9oTsTeSPNcsHihJaoi",
+      "block": 5317560,
+      "data": "B721nova/submission/main/323c9a3bfee1a880d43f.txt",
+      "stake": 9.999999717180685e-10,
+      "time": "2025-04-09T22:30:49.245252"
+    },
+    "5DZkeXZsxckgKGY9aTDB8W14p8EX7bw5mTKBvBJ5WTzodA59": {
+      "uid": 90,
+      "hotkey": "5DZkeXZsxckgKGY9aTDB8W14p8EX7bw5mTKBvBJ5WTzodA59",
+      "block": 5317560,
+      "data": "B721nova/submission/main/22bfd750c817b9fec03e.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245256"
+    },
+    "5GgfV485mcASqZBdyPzZsL9evhksPCizS2fqKRiA5tnfYVqX": {
+      "uid": 91,
+      "hotkey": "5GgfV485mcASqZBdyPzZsL9evhksPCizS2fqKRiA5tnfYVqX",
+      "block": 5246654,
+      "data": "LLystrblu/sn68/main/917411cbe5c307a35b42.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245260"
+    },
+    "5Gb4SXNcMGsfw4ADYemPZ9EnhcXPfaTeutdK1uhgzSEM589Y": {
+      "uid": 92,
+      "hotkey": "5Gb4SXNcMGsfw4ADYemPZ9EnhcXPfaTeutdK1uhgzSEM589Y",
+      "block": 5317560,
+      "data": "B721nova/submission/main/7f1360a0c0f441a92ab3.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245265"
+    },
+    "5Gv2PGYGgfB7bsnucBcM3yjpLaAs27QzhYAArd3yuB9JbY3q": {
+      "uid": 93,
+      "hotkey": "5Gv2PGYGgfB7bsnucBcM3yjpLaAs27QzhYAArd3yuB9JbY3q",
+      "block": 5317560,
+      "data": "B721nova/submission/main/f5144dc452d84fb065a8.txt",
+      "stake": 1.2159999869254534e-06,
+      "time": "2025-04-09T22:30:49.245269"
+    },
+    "5CFfBn4xhAs571XWVwRGnPDTtNAx4mrrN8SrZkLgooM1EgGY": {
+      "uid": 94,
+      "hotkey": "5CFfBn4xhAs571XWVwRGnPDTtNAx4mrrN8SrZkLgooM1EgGY",
+      "block": 5317560,
+      "data": "B721nova/submission/main/c4a26ffc0bfeb7abf9d0.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245274"
+    },
+    "5HVPNMjtjbBzxiTVNorUSQYKNsKjZa4h2Rg2vxYDCTwXxWjS": {
+      "uid": 95,
+      "hotkey": "5HVPNMjtjbBzxiTVNorUSQYKNsKjZa4h2Rg2vxYDCTwXxWjS",
+      "block": 5317566,
+      "data": "commander-hawk/68/main/7f14a4afa996ab8b34ba.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245278"
+    },
+    "5F546SAXoovpA7LQn39f2WRaUjRkAn4mXd2cP3shjoQGpKtr": {
+      "uid": 96,
+      "hotkey": "5F546SAXoovpA7LQn39f2WRaUjRkAn4mXd2cP3shjoQGpKtr",
+      "block": 5317565,
+      "data": "commander-hawk/68/main/5e05c2c4d580c7753d75.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245282"
+    },
+    "5DRU5yyhD7Z8jrwQ5cdwSeGEGvFSDA1ZhB9QkWshUYd5M5Yq": {
+      "uid": 97,
+      "hotkey": "5DRU5yyhD7Z8jrwQ5cdwSeGEGvFSDA1ZhB9QkWshUYd5M5Yq",
+      "block": 5317280,
+      "data": "commander-hawk/68/main/e8e3f1ac96f2b84619a1.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245287"
+    },
+    "5HNRE9qfTNmUM7FJJuPqUp99pKQANxBuZu9hjSZumgNayYGD": {
+      "uid": 98,
+      "hotkey": "5HNRE9qfTNmUM7FJJuPqUp99pKQANxBuZu9hjSZumgNayYGD",
+      "block": 5308920,
+      "data": "B721nova/submission/main/447e6df9fc422803424b.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245292"
+    },
+    "5GZ8hbMRvYNoVQjxhfscgxXDWBoYLcMHEzQJMwhXcWoQhx7m": {
+      "uid": 99,
+      "hotkey": "5GZ8hbMRvYNoVQjxhfscgxXDWBoYLcMHEzQJMwhXcWoQhx7m",
+      "block": 5308560,
+      "data": "B721nova/submission/main/354e3b30212c5984f7fd.txt",
+      "stake": 9.999999717180685e-10,
+      "time": "2025-04-09T22:30:49.245296"
+    },
+    "5F9mZFn9iTZyBR3BwsAWxZr7tdfge1QAYm1Z5QnvYN5pBkzz": {
+      "uid": 100,
+      "hotkey": "5F9mZFn9iTZyBR3BwsAWxZr7tdfge1QAYm1Z5QnvYN5pBkzz",
+      "block": 5293832,
+      "data": "B721nova/submission/main/8d7f590667138e83a9ee.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245301"
+    },
+    "5ECN44BvQ63K4X5VharRBrrWTUAGwMX3iHYqCYGyQrCcSfvF": {
+      "uid": 101,
+      "hotkey": "5ECN44BvQ63K4X5VharRBrrWTUAGwMX3iHYqCYGyQrCcSfvF",
+      "block": 5309280,
+      "data": "B721nova/submission/main/5a5eeecec77ae8b75218.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245305"
+    },
+    "5GWCdxZEcNunQyshLQoUhSeM3A1NoApfmPo45nJBgXm6GmxC": {
+      "uid": 102,
+      "hotkey": "5GWCdxZEcNunQyshLQoUhSeM3A1NoApfmPo45nJBgXm6GmxC",
+      "block": 5297048,
+      "data": "B721nova/submission/main/67b267cde76e83ea4a6a.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245309"
+    },
+    "5GR2m6Y37av2d5aejhkm1Xi9d8eJBLT913MnTV7DfW8xGBn5": {
+      "uid": 103,
+      "hotkey": "5GR2m6Y37av2d5aejhkm1Xi9d8eJBLT913MnTV7DfW8xGBn5",
+      "block": 5294914,
+      "data": "B721nova/submission/main/50b52d9597bfad7481ff.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245314"
+    },
+    "5H978iKoJTaXRPLHXcLMWom8k2VdRX1iuWieMHDEkKJAbjCM": {
+      "uid": 107,
+      "hotkey": "5H978iKoJTaXRPLHXcLMWom8k2VdRX1iuWieMHDEkKJAbjCM",
+      "block": 5317782,
+      "data": "nova-miner/nova/main/fce99db49766d6a4473a.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245319"
+    },
+    "5GxvXqGyA6FGerMkSCEsx66HkQjNRbsq2z3H2YGcZdZo4rBZ": {
+      "uid": 108,
+      "hotkey": "5GxvXqGyA6FGerMkSCEsx66HkQjNRbsq2z3H2YGcZdZo4rBZ",
+      "block": 5316859,
+      "data": "nova-miner/nova/main/9cda37181b5e931102f8.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245324"
+    },
+    "5Dcra2sjRncf1QPLmhMfH6bQx5VWxNwR7L5sgz1tuNY2zT8M": {
+      "uid": 109,
+      "hotkey": "5Dcra2sjRncf1QPLmhMfH6bQx5VWxNwR7L5sgz1tuNY2zT8M",
+      "block": 5316876,
+      "data": "nova-miner/nova/main/1f48fd5f999e95a0fc63.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245328"
+    },
+    "5DUDorqHN98kNFXYw32VhZnmhnZny5Qgh6JNZzoYzhXnos2R": {
+      "uid": 110,
+      "hotkey": "5DUDorqHN98kNFXYw32VhZnmhnZny5Qgh6JNZzoYzhXnos2R",
+      "block": 5246296,
+      "data": "LLystrblu/sn68/main/eef4b09660d3af91e8bd.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245333"
+    },
+    "5FFApaS75bv5pJHfAp2FVLBj9ZaXuFDjEypsaBNc1wCfe52v": {
+      "uid": 111,
+      "hotkey": "5FFApaS75bv5pJHfAp2FVLBj9ZaXuFDjEypsaBNc1wCfe52v",
+      "block": 5188321,
+      "data": "P23751|Q7V054",
+      "stake": 150277.046875,
+      "time": "2025-04-09T22:30:49.245337"
+    },
+    "5CBDR44iXSCnimDx9bQ7jeuevNthmjje7g7B76QNQ5ahBWR6": {
+      "uid": 112,
+      "hotkey": "5CBDR44iXSCnimDx9bQ7jeuevNthmjje7g7B76QNQ5ahBWR6",
+      "block": 5246655,
+      "data": "LLystrblu/sn68/main/af49ede158c283d07a99.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245342"
+    },
+    "5CPHBmygku4FKx3xSeUnoMfn7cGie5xfkB7Fms1XuRafiu4R": {
+      "uid": 113,
+      "hotkey": "5CPHBmygku4FKx3xSeUnoMfn7cGie5xfkB7Fms1XuRafiu4R",
+      "block": 5317786,
+      "data": "bitty-labs/novasubs/main/f45c1a0461f8594166d5.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245346"
+    },
+    "5G9isXT1FM9BmMnXz8dXe8Et2TfMx2vvxjt16nqYJuNxNbZh": {
+      "uid": 114,
+      "hotkey": "5G9isXT1FM9BmMnXz8dXe8Et2TfMx2vvxjt16nqYJuNxNbZh",
+      "block": 5317750,
+      "data": "bitty-labs/novasubs/main/f43a66d498bb1a1235bc.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245350"
+    },
+    "5CyPvM4QbfR35Xkb6dYvakzu5ReVRM76iKvWaeXut328PpTE": {
+      "uid": 115,
+      "hotkey": "5CyPvM4QbfR35Xkb6dYvakzu5ReVRM76iKvWaeXut328PpTE",
+      "block": 5317566,
+      "data": "LLystrblu/sn68/main/ab87f7eb798c7a4113b5.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245355"
+    },
+    "5EEeLJLURdHnmc4tTgYjvV9FxV8jgrNLH57kUUTGvZNmTo1w": {
+      "uid": 116,
+      "hotkey": "5EEeLJLURdHnmc4tTgYjvV9FxV8jgrNLH57kUUTGvZNmTo1w",
+      "block": 5317563,
+      "data": "dishindin2505/nova/main/data/results/800a5a0761bf2bab5ab2.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245360"
+    },
+    "5DFGUxSNTRgdXCM95my1MfAxbbxUHGXg6tZCJBmVeiS3Rf3w": {
+      "uid": 117,
+      "hotkey": "5DFGUxSNTRgdXCM95my1MfAxbbxUHGXg6tZCJBmVeiS3Rf3w",
+      "block": 5267553,
+      "data": "rkagan2025/nova-miner/main/2e728960c72f8066a5ec.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245365"
+    },
+    "5ESDhbw2eErUvMhX6KUxp3oW7eBknobHWKYdYkJ6Yy2n2wWn": {
+      "uid": 118,
+      "hotkey": "5ESDhbw2eErUvMhX6KUxp3oW7eBknobHWKYdYkJ6Yy2n2wWn",
+      "block": 5230422,
+      "data": "sylve15/nova/main/d8d9c0cc490744a423b8.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245369"
+    },
+    "5Dkrfkew1wkC4hKJRq5EfgzUGWJXa9zz1RQZcRkb4NHyfL2b": {
+      "uid": 119,
+      "hotkey": "5Dkrfkew1wkC4hKJRq5EfgzUGWJXa9zz1RQZcRkb4NHyfL2b",
+      "block": 5230782,
+      "data": "sylve15/nova/main/474420ad0d3d86104f29.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245373"
+    },
+    "5GBkJ7x23pS9rbjTsNnTxuTrv1Um8SYk73buheR38ME2gZtq": {
+      "uid": 120,
+      "hotkey": "5GBkJ7x23pS9rbjTsNnTxuTrv1Um8SYk73buheR38ME2gZtq",
+      "block": 5230425,
+      "data": "sylve15/nova/main/ab44fb9465bee540cb93.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245377"
+    },
+    "5Hmp5bojJyMrirD7xiSJttDS4GiTooffa44voBagGQFf3vYF": {
+      "uid": 121,
+      "hotkey": "5Hmp5bojJyMrirD7xiSJttDS4GiTooffa44voBagGQFf3vYF",
+      "block": 5317676,
+      "data": "lovespaghetti/sn68/main/11f59bf3f61e9b806578.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245382"
+    },
+    "5Fq4gCshJLT15CXNL93uqUmTsL3j4wiN4XduJRTWQbee8EQS": {
+      "uid": 122,
+      "hotkey": "5Fq4gCshJLT15CXNL93uqUmTsL3j4wiN4XduJRTWQbee8EQS",
+      "block": 5317221,
+      "data": "nova-miner/nova/main/bf783cfffe960566da59.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245386"
+    },
+    "5ERrV27By3UoDBr1SGYFXxRtq4NCFqBohi5YvXpz6rnefqBX": {
+      "uid": 123,
+      "hotkey": "5ERrV27By3UoDBr1SGYFXxRtq4NCFqBohi5YvXpz6rnefqBX",
+      "block": 5231981,
+      "data": "nova-miner/nova/5ERrV2/75f892d4fc12440af8e7.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245390"
+    },
+    "5HJu2RTS4buYFReB9H3pwEovr5t2kSs1oorTytcMcfEG1VQD": {
+      "uid": 124,
+      "hotkey": "5HJu2RTS4buYFReB9H3pwEovr5t2kSs1oorTytcMcfEG1VQD",
+      "block": 5317251,
+      "data": "nova-miner/nova/main/8e12264c635c9b0b83b8.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245395"
+    },
+    "5FEutLZKJSPKGf9JH1rBmjs7LpDAZ6mhKdpEhL2zYnZ4y5P3": {
+      "uid": 125,
+      "hotkey": "5FEutLZKJSPKGf9JH1rBmjs7LpDAZ6mhKdpEhL2zYnZ4y5P3",
+      "block": 5317218,
+      "data": "nova-miner/nova/main/98a528aea5ddc26b4793.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245399"
+    },
+    "5DD5Yr5PJTWFEWeTBxr8kQrcrzKVdiAuSSY5vC1CAgAM1qJ1": {
+      "uid": 131,
+      "hotkey": "5DD5Yr5PJTWFEWeTBxr8kQrcrzKVdiAuSSY5vC1CAgAM1qJ1",
+      "block": 5317566,
+      "data": "tellorian/sn68_submit/main/910c64bc455b75d0cc6a.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245404"
+    },
+    "5CqWgrDd9WrxKGFiURNyfTZwEK1b7SDPfW22iXDHeyGULXcs": {
+      "uid": 132,
+      "hotkey": "5CqWgrDd9WrxKGFiURNyfTZwEK1b7SDPfW22iXDHeyGULXcs",
+      "block": 5317569,
+      "data": "tellorian/sn68_submit/main/3fe255c538e4890b33ba.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245408"
+    },
+    "5E4EPgVMmExxXkcmhAEE6nGLYWSdzM7noq7p4HA6jrZS3BCV": {
+      "uid": 133,
+      "hotkey": "5E4EPgVMmExxXkcmhAEE6nGLYWSdzM7noq7p4HA6jrZS3BCV",
+      "block": 5317582,
+      "data": "tellorian/sn68_submit/main/5c597af8442dd9b06c49.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245412"
+    },
+    "5CPdehZC5Ga2sicQNDydQTNkCp1kbZpvGvGU1c8mgZp4e8ab": {
+      "uid": 134,
+      "hotkey": "5CPdehZC5Ga2sicQNDydQTNkCp1kbZpvGvGU1c8mgZp4e8ab",
+      "block": 5317560,
+      "data": "bitty-labs/novasubs/main/d2fc9cbaf18011fa03fb.txt",
+      "stake": 0.018807459622621536,
+      "time": "2025-04-09T22:30:49.245416"
+    },
+    "5FF6WuK11N7vCiJ12aE9PAY7FVaCjMfuK8GF4uw5YMbAETgy": {
+      "uid": 136,
+      "hotkey": "5FF6WuK11N7vCiJ12aE9PAY7FVaCjMfuK8GF4uw5YMbAETgy",
+      "block": 5317561,
+      "data": "nathanhoang102/sn68_08_11/main/81bf51cdd15b6c3544f3.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245420"
+    },
+    "5CcaiDd7FQENCNNZQuK3fbSLqMKMv9qxyHV8mP5QBnqckjL3": {
+      "uid": 137,
+      "hotkey": "5CcaiDd7FQENCNNZQuK3fbSLqMKMv9qxyHV8mP5QBnqckjL3",
+      "block": 5317560,
+      "data": "nathanhoang102/sn68_08_12/main/86926e4ab5d85b86a6f8.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245424"
+    },
+    "5E6n9UTWGU8FCAZxJRP6YiuoGbro91RsDPCtSassye2iR8gd": {
+      "uid": 138,
+      "hotkey": "5E6n9UTWGU8FCAZxJRP6YiuoGbro91RsDPCtSassye2iR8gd",
+      "block": 5317561,
+      "data": "nathanhoang102/sn68_08_15/main/65ba6cd687850cc8f6de.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245428"
+    },
+    "5FEZUkcmu6vEBkkfH9SHykb9dUU8KDHk95NqRjrkqDBruzpS": {
+      "uid": 139,
+      "hotkey": "5FEZUkcmu6vEBkkfH9SHykb9dUU8KDHk95NqRjrkqDBruzpS",
+      "block": 5317560,
+      "data": "nathanhoang102/sn68_08_13/main/a563b4ad997eacfb6cb4.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245432"
+    },
+    "5EegvDhHZ9LC4u1ZwCRyxaqeXKnFT15Gb76WYFUxZpV1u1R9": {
+      "uid": 140,
+      "hotkey": "5EegvDhHZ9LC4u1ZwCRyxaqeXKnFT15Gb76WYFUxZpV1u1R9",
+      "block": 5317560,
+      "data": "nathanhoang102/sn68_08_14/main/46d19553b68dc92b216e.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245436"
+    },
+    "5ETmMM4ANkBk27J9F3H48wxc6jKNNgLsranqwfHnbQxAunvm": {
+      "uid": 141,
+      "hotkey": "5ETmMM4ANkBk27J9F3H48wxc6jKNNgLsranqwfHnbQxAunvm",
+      "block": 5317560,
+      "data": "nathanhoang102/sn68_08_18/main/6574034d00364d6d751d.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245439"
+    },
+    "5Hbr3Ts9NHohLEc1gYTP3ckZPnh7gT2vQtpwuUEQsDqARAvD": {
+      "uid": 142,
+      "hotkey": "5Hbr3Ts9NHohLEc1gYTP3ckZPnh7gT2vQtpwuUEQsDqARAvD",
+      "block": 5317560,
+      "data": "nathanhoang102/sn68_08_17/main/624ae94c43c7a24cfe15.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245443"
+    },
+    "5C5HX2Yka6DL2qAB2SaygtsrENynVZvXvgxkpYJecn7avp7g": {
+      "uid": 143,
+      "hotkey": "5C5HX2Yka6DL2qAB2SaygtsrENynVZvXvgxkpYJecn7avp7g",
+      "block": 5317560,
+      "data": "nathanhoang102/sn68_08_20/main/5c778b4b4fe7e92132fb.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245447"
+    },
+    "5CVZmdnWM6vGLfiHsHP8EvxuqYHuUkLybUtquBoCmM8QiC67": {
+      "uid": 144,
+      "hotkey": "5CVZmdnWM6vGLfiHsHP8EvxuqYHuUkLybUtquBoCmM8QiC67",
+      "block": 5317755,
+      "data": "nathanhoang102/sn68_08_16/main/987d58504a10513342a2.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245451"
+    },
+    "5Eez8aQUHMAgPD2bm1Mnd77iapiCApYaGxi6ZCrwNCFxMbN2": {
+      "uid": 145,
+      "hotkey": "5Eez8aQUHMAgPD2bm1Mnd77iapiCApYaGxi6ZCrwNCFxMbN2",
+      "block": 5317561,
+      "data": "0xberlja/nova/145/65c2ce8e89f2989e37b2.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245455"
+    },
+    "5DZqHcEfLUV2EbNAYVDLZddKGsLxHevcvU5fz26bdtjcTS6t": {
+      "uid": 146,
+      "hotkey": "5DZqHcEfLUV2EbNAYVDLZddKGsLxHevcvU5fz26bdtjcTS6t",
+      "block": 5317561,
+      "data": "0xberlja/nova/146/38c3b721530ae7490266.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245458"
+    },
+    "5HWKgTKr1kNqiDez2x4nWHinD6zxqQ4jPJsw7XvoN2diWuK4": {
+      "uid": 147,
+      "hotkey": "5HWKgTKr1kNqiDez2x4nWHinD6zxqQ4jPJsw7XvoN2diWuK4",
+      "block": 5317561,
+      "data": "0xberlja/nova/147/5f1182d7ebf494fabec3.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245463"
+    },
+    "5DqmiRr112nD8K9Y8UEgD8gCBBQLFPpRijmF3toZdcN1gJTk": {
+      "uid": 148,
+      "hotkey": "5DqmiRr112nD8K9Y8UEgD8gCBBQLFPpRijmF3toZdcN1gJTk",
+      "block": 5317561,
+      "data": "0xberlja/nova/148/4aac23ab102805cbae11.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245468"
+    },
+    "5G3rBkmFe3p4MMQQFqNxQKPZAuiD2DXh9YPEfHG32Ltp1Vqg": {
+      "uid": 149,
+      "hotkey": "5G3rBkmFe3p4MMQQFqNxQKPZAuiD2DXh9YPEfHG32Ltp1Vqg",
+      "block": 5317561,
+      "data": "0xberlja/nova/149/8d8eec109404f91291d2.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245472"
+    },
+    "5DDZQ8yjVP5GG5PDhHnPJGentwkfBRya3SpsV6JxdHwW5AZh": {
+      "uid": 150,
+      "hotkey": "5DDZQ8yjVP5GG5PDhHnPJGentwkfBRya3SpsV6JxdHwW5AZh",
+      "block": 5317561,
+      "data": "0xberlja/nova/150/0b601ea742cd73ef28df.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245476"
+    },
+    "5EcdWvojJS943oaKjszLiVQFeCmAzKSGVspjD7aHTsd7eLwh": {
+      "uid": 151,
+      "hotkey": "5EcdWvojJS943oaKjszLiVQFeCmAzKSGVspjD7aHTsd7eLwh",
+      "block": 5317561,
+      "data": "0xberlja/nova/151/048fb80ae6a630059458.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245479"
+    },
+    "5HmV9qStbx6eqk5AYHcFBffSKKqNeKWPetap3VqVnAP4mshc": {
+      "uid": 152,
+      "hotkey": "5HmV9qStbx6eqk5AYHcFBffSKKqNeKWPetap3VqVnAP4mshc",
+      "block": 5317561,
+      "data": "0xberlja/nova/152/9cd3310d4279caa03a8d.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245483"
+    },
+    "5DfbUEFsGtfsL34NpFLSWbxGmGFmw7UEKqwqmrkKAY3jGfhy": {
+      "uid": 153,
+      "hotkey": "5DfbUEFsGtfsL34NpFLSWbxGmGFmw7UEKqwqmrkKAY3jGfhy",
+      "block": 5317561,
+      "data": "0xberlja/nova/153/5eecca494c2f5acc8902.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245487"
+    },
+    "5Cm1F9CgARP3PFduK8kVisvNy63DTWujUVomCVqGUg9aDnS1": {
+      "uid": 154,
+      "hotkey": "5Cm1F9CgARP3PFduK8kVisvNy63DTWujUVomCVqGUg9aDnS1",
+      "block": 5317561,
+      "data": "0xberlja/nova/154/a45db1203eef911a6c08.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245492"
+    },
+    "5E2bgcHNGFU6uiSz9CXwpi3X2yvERad49TuWaSLB4Vqw2s2z": {
+      "uid": 155,
+      "hotkey": "5E2bgcHNGFU6uiSz9CXwpi3X2yvERad49TuWaSLB4Vqw2s2z",
+      "block": 5317561,
+      "data": "0xberlja/nova/155/d6a85d6f2fc8b23573d2.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245496"
+    },
+    "5ERmR3eW9aWM79nJhQi9HQQFtmzT2QRgZ9DAgjwWDRrFEBYh": {
+      "uid": 156,
+      "hotkey": "5ERmR3eW9aWM79nJhQi9HQQFtmzT2QRgZ9DAgjwWDRrFEBYh",
+      "block": 5317561,
+      "data": "0xberlja/nova/156/945f448487cb3ab18476.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245499"
+    },
+    "5F7MJiHbm7k3BvPsC3PxYTgd2xKiA5uc4gKkHM5FCcPYM4VM": {
+      "uid": 157,
+      "hotkey": "5F7MJiHbm7k3BvPsC3PxYTgd2xKiA5uc4gKkHM5FCcPYM4VM",
+      "block": 5196961,
+      "data": "A0KT20|O66398",
+      "stake": 78394.546875,
+      "time": "2025-04-09T22:30:49.245503"
+    },
+    "5Cu4Aruz2YSkVcKTNDp7rtQx1tAhjZKbPb39iT1A1AFNGV2N": {
+      "uid": 158,
+      "hotkey": "5Cu4Aruz2YSkVcKTNDp7rtQx1tAhjZKbPb39iT1A1AFNGV2N",
+      "block": 5317560,
+      "data": "bitty-labs/novasubs/main/733f87d913ed81299435.txt",
+      "stake": 0.007781764958053827,
+      "time": "2025-04-09T22:30:49.245507"
+    },
+    "5Hdzc3KfnLuzxsPSPTkb1bzEDmFAudQzwzsRcrf8QCyBh2qz": {
+      "uid": 159,
+      "hotkey": "5Hdzc3KfnLuzxsPSPTkb1bzEDmFAudQzwzsRcrf8QCyBh2qz",
+      "block": 5317560,
+      "data": "bitty-labs/novasubs/main/106ca356b4d57b3a04a7.txt",
+      "stake": 0.0292205847799778,
+      "time": "2025-04-09T22:30:49.245511"
+    },
+    "5DywyiGypFnXHV24aWj38V2mY1ft4TKbrrZpjLuCpVL2GkVH": {
+      "uid": 160,
+      "hotkey": "5DywyiGypFnXHV24aWj38V2mY1ft4TKbrrZpjLuCpVL2GkVH",
+      "block": 5317542,
+      "data": "subnetsquid/molecules/main/01eb0f61cf28a3f9cb1b.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245515"
+    },
+    "5DSb44vGh1ZccSJEamsAwb1hEpn37vARatTA7NkzqQDCqURm": {
+      "uid": 161,
+      "hotkey": "5DSb44vGh1ZccSJEamsAwb1hEpn37vARatTA7NkzqQDCqURm",
+      "block": 5317585,
+      "data": "tellorian/sn68_submit/main/3d9ed696891726e167db.txt",
+      "stake": 148.0108184814453,
+      "time": "2025-04-09T22:30:49.245519"
+    },
+    "5DLeXY9nmEKVrQ7Dk3FbjtHNEShvW7pQZV9bc7xnJdfpTHUP": {
+      "uid": 162,
+      "hotkey": "5DLeXY9nmEKVrQ7Dk3FbjtHNEShvW7pQZV9bc7xnJdfpTHUP",
+      "block": 5317253,
+      "data": "tellorian/sn68_submit/main/031ad7fb2b27a01fe62c.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245523"
+    },
+    "5GsDA3RnV868U3FBpcVh8e4cXMdxFp71pTBKfQ4z8AY85gJ4": {
+      "uid": 163,
+      "hotkey": "5GsDA3RnV868U3FBpcVh8e4cXMdxFp71pTBKfQ4z8AY85gJ4",
+      "block": 5317281,
+      "data": "tellorian/sn68_submit/main/9f54e594e7778f680732.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245527"
+    },
+    "5GvUBBGTuQ3iRwU7YiyemoqgQSU8C2ucEwGENF3nzhyoRM8i": {
+      "uid": 164,
+      "hotkey": "5GvUBBGTuQ3iRwU7YiyemoqgQSU8C2ucEwGENF3nzhyoRM8i",
+      "block": 5317284,
+      "data": "tellorian/sn68_submit/main/5985033b4ccedefbb50c.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245531"
+    },
+    "5GrmL4j2w4uNRgnyzZZYPTjGR33iE6p7hwis5mPUmkuMTdFy": {
+      "uid": 165,
+      "hotkey": "5GrmL4j2w4uNRgnyzZZYPTjGR33iE6p7hwis5mPUmkuMTdFy",
+      "block": 5317319,
+      "data": "tellorian/sn68_submit/main/ab7753054b57764d9c35.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245535"
+    },
+    "5CGS7H1rDHtfDwYba4CcYRyzH2NPhQwscPPWtGr2bQct92ov": {
+      "uid": 166,
+      "hotkey": "5CGS7H1rDHtfDwYba4CcYRyzH2NPhQwscPPWtGr2bQct92ov",
+      "block": 5317322,
+      "data": "tellorian/sn68_submit/main/393f06cc9288aa7fa4b4.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245538"
+    },
+    "5GdjTY1aGaq1ZDk8taUxNrK7XJSxjRH6zs7aULhXkFM75hUM": {
+      "uid": 167,
+      "hotkey": "5GdjTY1aGaq1ZDk8taUxNrK7XJSxjRH6zs7aULhXkFM75hUM",
+      "block": 5120046,
+      "data": "ECFB8F4F4EB1CB09_0C6210BEA16FFEEA_6041_UN",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245542"
+    },
+    "5FWwfBV7jeybJMEffsbFZFbru8ZA8BDhRUNgzq8f4tNo2x7Y": {
+      "uid": 168,
+      "hotkey": "5FWwfBV7jeybJMEffsbFZFbru8ZA8BDhRUNgzq8f4tNo2x7Y",
+      "block": 5121000,
+      "data": "6E752FCC1C494610_D7673DDEB571FADE_7019_DP",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245546"
+    },
+    "5D7c5puZX6XzaEAEMy51mnM62zhncwZFCE44iDxUvNvXuQx6": {
+      "uid": 169,
+      "hotkey": "5D7c5puZX6XzaEAEMy51mnM62zhncwZFCE44iDxUvNvXuQx6",
+      "block": 5315389,
+      "data": "rkagan2025/nova-miner/main/932d648382ce4a13ec5e.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245550"
+    },
+    "5E4SLPc9HEsqA7C7aHCFvFDcht33oCxJNLCTFzn8PPMYzE3c": {
+      "uid": 170,
+      "hotkey": "5E4SLPc9HEsqA7C7aHCFvFDcht33oCxJNLCTFzn8PPMYzE3c",
+      "block": 5317560,
+      "data": "B721nova/submission/main/53a214e79d65ed85da5e.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245554"
+    },
+    "5FgXVWbRTP8h9YTsKUZerwKng48AvDHGqChddu1TeEzHcKqd": {
+      "uid": 171,
+      "hotkey": "5FgXVWbRTP8h9YTsKUZerwKng48AvDHGqChddu1TeEzHcKqd",
+      "block": 5317560,
+      "data": "B721nova/submission/main/f7bc5c522b5561d1482d.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245558"
+    },
+    "5Gy9nPrgZpApswdHjFxuec1vbz6MBZVozGPxZZtmn7Eq7go5": {
+      "uid": 172,
+      "hotkey": "5Gy9nPrgZpApswdHjFxuec1vbz6MBZVozGPxZZtmn7Eq7go5",
+      "block": 5317560,
+      "data": "B721nova/submission/main/bb591a568ab41ed297e0.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245562"
+    },
+    "5Gq2kjnhhBaRqu1PnXMiXuuZm2BgnGRjhJQX8wxp6muvCXFd": {
+      "uid": 173,
+      "hotkey": "5Gq2kjnhhBaRqu1PnXMiXuuZm2BgnGRjhJQX8wxp6muvCXFd",
+      "block": 5317560,
+      "data": "B721nova/submission/main/abc09b5f107b07d1c8a7.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245567"
+    },
+    "5DkLXENc7JHPoVb5dt6GSLwHS5H3YUKxazWL9R7W3UDqTXW2": {
+      "uid": 174,
+      "hotkey": "5DkLXENc7JHPoVb5dt6GSLwHS5H3YUKxazWL9R7W3UDqTXW2",
+      "block": 5309640,
+      "data": "B721nova/submission/main/f4b8d753c001f313b3c9.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245570"
+    },
+    "5C57NeGkFmR8TPiS9tvqC7QDfcrDVBXE1BJPMpuGmLDhdEGv": {
+      "uid": 175,
+      "hotkey": "5C57NeGkFmR8TPiS9tvqC7QDfcrDVBXE1BJPMpuGmLDhdEGv",
+      "block": 5309280,
+      "data": "B721nova/submission/main/5d707f595a4f6f424d61.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245574"
+    },
+    "5GpzzMtzGRYmBa6pNqKg3oa4kwXdTZrsAPn4FEQvB7T2KraH": {
+      "uid": 176,
+      "hotkey": "5GpzzMtzGRYmBa6pNqKg3oa4kwXdTZrsAPn4FEQvB7T2KraH",
+      "block": 5301001,
+      "data": "bitty-labs/novasubs2/main/38e394106ddfffc1ec4d.txt",
+      "stake": 0.005859239026904106,
+      "time": "2025-04-09T22:30:49.245579"
+    },
+    "5E9nFrwtdg621BEGv7WAwHpF9jtng2SkYbgvhdWK8gU6HDaH": {
+      "uid": 177,
+      "hotkey": "5E9nFrwtdg621BEGv7WAwHpF9jtng2SkYbgvhdWK8gU6HDaH",
+      "block": 5317571,
+      "data": "LLystrblu/sn68/main/08df169dfb032ad25f5e.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245583"
+    },
+    "5HT3csH4eCgVzjRaEr8vU5wVSHKdSfjdKauaGRUSgRVg4YWT": {
+      "uid": 178,
+      "hotkey": "5HT3csH4eCgVzjRaEr8vU5wVSHKdSfjdKauaGRUSgRVg4YWT",
+      "block": 5317581,
+      "data": "LLystrblu/sn68/main/bbfce18eb7279f42d572.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245587"
+    },
+    "5C7LALoU5UdJT8U8g6xXMNLPzMhea6oEy1GjfcgxddpFLwTp": {
+      "uid": 179,
+      "hotkey": "5C7LALoU5UdJT8U8g6xXMNLPzMhea6oEy1GjfcgxddpFLwTp",
+      "block": 5317591,
+      "data": "LLystrblu/sn68/main/72296d51c32c7d775c0c.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245591"
+    },
+    "5Gb7pVym9wyyYJmZeMSeh8d6ZKacNKTpsLiYfxiDor3r6ad5": {
+      "uid": 180,
+      "hotkey": "5Gb7pVym9wyyYJmZeMSeh8d6ZKacNKTpsLiYfxiDor3r6ad5",
+      "block": 5317295,
+      "data": "nova-miner/nova/main/5bfce0741df568586f80.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245595"
+    },
+    "5C5irJHWgP9ZkkYxaG5KmtP42Mb6sX4Y5i5kgETzyvM3kmRn": {
+      "uid": 181,
+      "hotkey": "5C5irJHWgP9ZkkYxaG5KmtP42Mb6sX4Y5i5kgETzyvM3kmRn",
+      "block": 5317641,
+      "data": "LLystrblu/sn68/main/6a9e50f2390d03853f3a.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245599"
+    },
+    "5GEQjwD1QfbPVGhz7prKVu7xfFPjiNtB3TmRo42a5w56ot8S": {
+      "uid": 182,
+      "hotkey": "5GEQjwD1QfbPVGhz7prKVu7xfFPjiNtB3TmRo42a5w56ot8S",
+      "block": 5317569,
+      "data": "LLystrblu/sn68/main/4a61db9e6889b3ed8aa6.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245604"
+    },
+    "5FA3RpHR2E72ZqZokhqj8HAekvq81UtsBDPycbj2Yyb14Xwu": {
+      "uid": 183,
+      "hotkey": "5FA3RpHR2E72ZqZokhqj8HAekvq81UtsBDPycbj2Yyb14Xwu",
+      "block": 5317575,
+      "data": "nova-miner/nova/main/7bbfcdd6e75cad7d2bcc.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245608"
+    },
+    "5GHJdkJTf5PDyB2MWLKQcTiGRmjHjhxtj1ToLfM89WxYwyb2": {
+      "uid": 184,
+      "hotkey": "5GHJdkJTf5PDyB2MWLKQcTiGRmjHjhxtj1ToLfM89WxYwyb2",
+      "block": 5317586,
+      "data": "nova-miner/nova/main/f748f89292a4f30f16b2.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245612"
+    },
+    "5FWyP9tk1mp6Vx4qJsgD65DegefWNGQQpt4EM9XyphMbJqNa": {
+      "uid": 185,
+      "hotkey": "5FWyP9tk1mp6Vx4qJsgD65DegefWNGQQpt4EM9XyphMbJqNa",
+      "block": 5317315,
+      "data": "nova-miner/nova/main/50e442cbafa768890dc3.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245615"
+    },
+    "5GxaAcpWGXqxrAkhJWd9rKZKHSHJ8Ciex4B1sgpiEhiCysA6": {
+      "uid": 186,
+      "hotkey": "5GxaAcpWGXqxrAkhJWd9rKZKHSHJ8Ciex4B1sgpiEhiCysA6",
+      "block": 5317277,
+      "data": "nova-miner/nova/main/e8d090c57f178f9467ef.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245619"
+    },
+    "5FcCqe98WMkGZw64mJmPDyxm1MsoQWTiemdDqCcZ6MFX4kzp": {
+      "uid": 187,
+      "hotkey": "5FcCqe98WMkGZw64mJmPDyxm1MsoQWTiemdDqCcZ6MFX4kzp",
+      "block": 5317580,
+      "data": "nova-miner/nova/main/dccfbb001027008a7b45.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245623"
+    },
+    "5EtV6fifUZcSYVvgpwi6idBY5s2BRR6HFiHrsafmjA3vqPBb": {
+      "uid": 188,
+      "hotkey": "5EtV6fifUZcSYVvgpwi6idBY5s2BRR6HFiHrsafmjA3vqPBb",
+      "block": 5317560,
+      "data": "nathanhoang102/sn68_04_07/main/0fe649e8bd1ea2a92420.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245627"
+    },
+    "5Da5fvmKhGDkX9FCfiX4ovmb3nZKrJn3VgqnmUqXT15q3MUj": {
+      "uid": 189,
+      "hotkey": "5Da5fvmKhGDkX9FCfiX4ovmb3nZKrJn3VgqnmUqXT15q3MUj",
+      "block": 5317560,
+      "data": "nathanhoang102/sn68_04_01/main/a3992e367bb25e37d43c.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245631"
+    },
+    "5DnnEbjwT3S5xEh5bFivjtwu7ZMm9rBTS9h3q2u8bLcS7VjQ": {
+      "uid": 190,
+      "hotkey": "5DnnEbjwT3S5xEh5bFivjtwu7ZMm9rBTS9h3q2u8bLcS7VjQ",
+      "block": 5271841,
+      "data": "nathanhoang102/sn68_04_06/main/1385ef105f00994c1cef.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245635"
+    },
+    "5HbZpwSsGAg7nwCvQzhE3SmkbzC4mp6xBHBwRWdVLGA3BWyP": {
+      "uid": 191,
+      "hotkey": "5HbZpwSsGAg7nwCvQzhE3SmkbzC4mp6xBHBwRWdVLGA3BWyP",
+      "block": 5317560,
+      "data": "nathanhoang102/sn68_04_04/main/29927c45a6b897bc9150.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245639"
+    },
+    "5FWnfQsXBrY2S9YmSKootrK5uwYTvceMJvvtP9ip5zhq9r2x": {
+      "uid": 192,
+      "hotkey": "5FWnfQsXBrY2S9YmSKootrK5uwYTvceMJvvtP9ip5zhq9r2x",
+      "block": 5271840,
+      "data": "nathanhoang102/sn68_04_02/main/dd35a2fd5842cb23f766.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245643"
+    },
+    "5FZ9PuoUQSoURqdFdqZBXF4MDvENRu1nbrpNr4nCpPgFyv9U": {
+      "uid": 193,
+      "hotkey": "5FZ9PuoUQSoURqdFdqZBXF4MDvENRu1nbrpNr4nCpPgFyv9U",
+      "block": 5317560,
+      "data": "nathanhoang102/sn68_04_09/main/ce51c6537976e75179b3.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245646"
+    },
+    "5FvCExR5FRz1fEe5RXytZnPXtvB73SndQtBxgAoPmDav1qCN": {
+      "uid": 194,
+      "hotkey": "5FvCExR5FRz1fEe5RXytZnPXtvB73SndQtBxgAoPmDav1qCN",
+      "block": 5317560,
+      "data": "nathanhoang102/sn68_04_08/main/c64196adbfa586bc5e27.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245650"
+    },
+    "5HHFrp97TaVYZvzoz2A5ZHuqpCccE5scx3FrK96hCvDiLHTL": {
+      "uid": 195,
+      "hotkey": "5HHFrp97TaVYZvzoz2A5ZHuqpCccE5scx3FrK96hCvDiLHTL",
+      "block": 5317560,
+      "data": "nathanhoang102/sn68_04_03/main/f1d826373ec6fa26d80a.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245654"
+    },
+    "5Gdc2NbjjgrFyzjPRJTEqEt21T3MPYK4Qtm2L9Twr9T623fR": {
+      "uid": 196,
+      "hotkey": "5Gdc2NbjjgrFyzjPRJTEqEt21T3MPYK4Qtm2L9Twr9T623fR",
+      "block": 5317560,
+      "data": "nathanhoang102/sn68_04_18/main/a6af69c31d1ba598f163.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245658"
+    },
+    "5Cd4uGNQsp3aMBT5X94viCB95D8SoaRXzC8XxmQ1hQQac1Rt": {
+      "uid": 197,
+      "hotkey": "5Cd4uGNQsp3aMBT5X94viCB95D8SoaRXzC8XxmQ1hQQac1Rt",
+      "block": 5317560,
+      "data": "nathanhoang102/sn68_04_10/main/6e9e801fd540d73be82c.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245662"
+    },
+    "5CvfgBYr8EECrQ6Y5rNwzHqU4AqyHjDMWzjs4HCfPvxL7Ks5": {
+      "uid": 198,
+      "hotkey": "5CvfgBYr8EECrQ6Y5rNwzHqU4AqyHjDMWzjs4HCfPvxL7Ks5",
+      "block": 5317560,
+      "data": "nathanhoang102/sn68_04_11/main/66d75b75c2619767a263.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245666"
+    },
+    "5GZLiHQp9BiZjzPTcwCFoe6P9jwARXmXxNaZ17sXaaRakoRN": {
+      "uid": 199,
+      "hotkey": "5GZLiHQp9BiZjzPTcwCFoe6P9jwARXmXxNaZ17sXaaRakoRN",
+      "block": 5317560,
+      "data": "nathanhoang102/sn68_04_05/main/972c1dba5244f52012bc.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245670"
+    },
+    "5D9wfLXTZMP77L2LQa1VrWVp6hByNT7kqvqLvSWLLKFd73eV": {
+      "uid": 200,
+      "hotkey": "5D9wfLXTZMP77L2LQa1VrWVp6hByNT7kqvqLvSWLLKFd73eV",
+      "block": 5317560,
+      "data": "nathanhoang102/sn68_04_15/main/a6024d1d1d62a6fb248d.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245673"
+    },
+    "5CPpBM4TwyHD6M3JueqdTrErPwRCoKB8xgbPrcwpA5HhN41M": {
+      "uid": 201,
+      "hotkey": "5CPpBM4TwyHD6M3JueqdTrErPwRCoKB8xgbPrcwpA5HhN41M",
+      "block": 5317560,
+      "data": "nathanhoang102/sn68_04_16/main/538de7d30b33f18cb030.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245677"
+    },
+    "5GbLb5BDQse26JjEg2fbuXj1HN9nFYpRGens9MhHMykAtCko": {
+      "uid": 202,
+      "hotkey": "5GbLb5BDQse26JjEg2fbuXj1HN9nFYpRGens9MhHMykAtCko",
+      "block": 5317560,
+      "data": "nathanhoang102/sn68_04_20/main/0db08a85c19f46875111.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245681"
+    },
+    "5E2dmGdHkwfWMDxYRYiH89QKCEV7B6PUdXTsgMhgDnp72wbm": {
+      "uid": 208,
+      "hotkey": "5E2dmGdHkwfWMDxYRYiH89QKCEV7B6PUdXTsgMhgDnp72wbm",
+      "block": 5317560,
+      "data": "nathanhoang102/sn68_04_19/main/3dbe9a129156d9d6b59f.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245685"
+    },
+    "5HKx6bsPFDWpwiVbfZVTjtSB3oJk7sy3BFa7cVajcJkVaHWz": {
+      "uid": 209,
+      "hotkey": "5HKx6bsPFDWpwiVbfZVTjtSB3oJk7sy3BFa7cVajcJkVaHWz",
+      "block": 5317560,
+      "data": "nathanhoang102/sn68_04_13/main/6e0ad2c130bc40874df1.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245689"
+    },
+    "5D7S1U4qcBkWHmL9ynVTkNLbwSBPjppGnAzYY9rhzyVYQgU2": {
+      "uid": 210,
+      "hotkey": "5D7S1U4qcBkWHmL9ynVTkNLbwSBPjppGnAzYY9rhzyVYQgU2",
+      "block": 5311084,
+      "data": "nathanhoang102/sn68_04_14/main/7a0988e4a850fd8c342b.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245692"
+    },
+    "5GHDZbmos918xk3iadir8afrdtC6aM6gxjQwh1QpxeNdUah1": {
+      "uid": 212,
+      "hotkey": "5GHDZbmos918xk3iadir8afrdtC6aM6gxjQwh1QpxeNdUah1",
+      "block": 5270765,
+      "data": "tellorian/sn68_submit/main/30bced36e10abc38e999.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245696"
+    },
+    "5Df3nC2RaGbFsCWZLV74syCREdk6siEzU8vMroBSuaiUHT9i": {
+      "uid": 213,
+      "hotkey": "5Df3nC2RaGbFsCWZLV74syCREdk6siEzU8vMroBSuaiUHT9i",
+      "block": 5270768,
+      "data": "tellorian/sn68_submit/main/b53bf3eb3beb2ab7b10a.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245700"
+    },
+    "5D51rCq543UXdEzBjsPYGPfGJAZK1VX1LrDzQhpgLwWpJ2GH": {
+      "uid": 214,
+      "hotkey": "5D51rCq543UXdEzBjsPYGPfGJAZK1VX1LrDzQhpgLwWpJ2GH",
+      "block": 5317560,
+      "data": "nathanhoang102/sn68_04_12/main/2497fb702fa779ccb908.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245704"
+    },
+    "5GEX3xwyzJBzEBxv9YaKjaNAnAHhUyvaFa1TbCpKdcvMxpZy": {
+      "uid": 215,
+      "hotkey": "5GEX3xwyzJBzEBxv9YaKjaNAnAHhUyvaFa1TbCpKdcvMxpZy",
+      "block": 5271024,
+      "data": "tellorian/sn68_submit/main/b942b11960f00543641f.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245707"
+    },
+    "5DkgdM3v7pMp1qLV9JGFpt61vTFtzKCmjTseGLVPDZDHTGyb": {
+      "uid": 216,
+      "hotkey": "5DkgdM3v7pMp1qLV9JGFpt61vTFtzKCmjTseGLVPDZDHTGyb",
+      "block": 5306911,
+      "data": "FavoritCoin/Nova/main/2870f919f0804cf2509a.txt",
+      "stake": 0.0014953729696571827,
+      "time": "2025-04-09T22:30:49.245711"
+    },
+    "5GGwhdAC4bUsFzDKCfDXa99sGA7NjstA7TJbuy1Up5wBKith": {
+      "uid": 217,
+      "hotkey": "5GGwhdAC4bUsFzDKCfDXa99sGA7NjstA7TJbuy1Up5wBKith",
+      "block": 5292150,
+      "data": "richardzon/minernova/main/1f1e94704af3fa80e4a1.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245715"
+    },
+    "5Dyp53masMy4JeJCSoLjDUb7YE4qrNfvzCN5zPWgsGxk5rBf": {
+      "uid": 218,
+      "hotkey": "5Dyp53masMy4JeJCSoLjDUb7YE4qrNfvzCN5zPWgsGxk5rBf",
+      "block": 5317560,
+      "data": "bitty-labs/novasubs/main/67560ac8d4ada841adfd.txt",
+      "stake": 0.022490911185741425,
+      "time": "2025-04-09T22:30:49.245718"
+    },
+    "5HESq8feacKRMQwAc4UWSxB5CDY7MTVAAkwgBdpaTbAeQQoZ": {
+      "uid": 219,
+      "hotkey": "5HESq8feacKRMQwAc4UWSxB5CDY7MTVAAkwgBdpaTbAeQQoZ",
+      "block": 5317560,
+      "data": "bitty-labs/novasubs/main/225fa763af9911dcbe0e.txt",
+      "stake": 0.009056728333234787,
+      "time": "2025-04-09T22:30:49.245722"
+    },
+    "5HWfbjYd63kkTWQtXuVp9vytpEuXPYQT4rnNbkdYhvfSGNpb": {
+      "uid": 234,
+      "hotkey": "5HWfbjYd63kkTWQtXuVp9vytpEuXPYQT4rnNbkdYhvfSGNpb",
+      "block": 5312552,
+      "data": "yuanyouli/sn68/main/7f302cf6953b0a603e63.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245727"
+    },
+    "5DDEGa8t9ghv92E2sjyCK2k8DfFpFYuLsJ6j7KsGVVX1EDtJ": {
+      "uid": 235,
+      "hotkey": "5DDEGa8t9ghv92E2sjyCK2k8DfFpFYuLsJ6j7KsGVVX1EDtJ",
+      "block": 5317560,
+      "data": "bitty-labs/novasubs/main/e6eab93603d356ab0828.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245730"
+    },
+    "5D52Ajv2MSWKfV1PNfyKthAGmNsWGi7dhQ3w1XiNptH6adCg": {
+      "uid": 236,
+      "hotkey": "5D52Ajv2MSWKfV1PNfyKthAGmNsWGi7dhQ3w1XiNptH6adCg",
+      "block": 5317560,
+      "data": "bitty-labs/novasubs/main/54dd0f1a3affebe56954.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245734"
+    },
+    "5HEoUDATGvAFMT4ViLrAjfVT8VtMRbgSRFA9YZVXEJzXJ842": {
+      "uid": 237,
+      "hotkey": "5HEoUDATGvAFMT4ViLrAjfVT8VtMRbgSRFA9YZVXEJzXJ842",
+      "block": 5317565,
+      "data": "bitty-labs/novasubs/main/e7a6ee3a8d98fac22d5e.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245738"
+    },
+    "5HYv8jbwquusGBR6hTaUwWofVfKbvBcizMDKq3UdAQmaBMCA": {
+      "uid": 238,
+      "hotkey": "5HYv8jbwquusGBR6hTaUwWofVfKbvBcizMDKq3UdAQmaBMCA",
+      "block": 5304553,
+      "data": "nathanhoang102/sn68_07_05/main/9d29a6c9e130ee40406c.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245742"
+    },
+    "5Ev2y8od1UgYEBJT1HkAhBDQPRe71vgdzdUPxENCQsUX4zni": {
+      "uid": 244,
+      "hotkey": "5Ev2y8od1UgYEBJT1HkAhBDQPRe71vgdzdUPxENCQsUX4zni",
+      "block": 5130767,
+      "data": "tellorian/sn68_submit/main/1d8990eb4ab4cad763eb.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245746"
+    },
+    "5F2CsUDVbRbVMXTh9fAzF9GacjVX7UapvRxidrxe7z8BYckQ": {
+      "uid": 245,
+      "hotkey": "5F2CsUDVbRbVMXTh9fAzF9GacjVX7UapvRxidrxe7z8BYckQ",
+      "block": 5186161,
+      "data": "P42732|Q8Z044",
+      "stake": 112329.3359375,
+      "time": "2025-04-09T22:30:49.245749"
+    },
+    "5CqjHomDqQMi2fWXEFzNwaZUEtTxm51YLMbTAKM3h58wGaWy": {
+      "uid": 249,
+      "hotkey": "5CqjHomDqQMi2fWXEFzNwaZUEtTxm51YLMbTAKM3h58wGaWy",
+      "block": 5309280,
+      "data": "B721nova/submission/main/6872526ef5c5e9a58798.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245753"
+    },
+    "5DvnRjnNbP7i5qjdbA7jrmC21oJrEpkxwhJ1RrZLSNQLooYf": {
+      "uid": 251,
+      "hotkey": "5DvnRjnNbP7i5qjdbA7jrmC21oJrEpkxwhJ1RrZLSNQLooYf",
+      "block": 5184187,
+      "data": "tellorian/sn68_submit/main/1dea20699fa6b3911312.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245757"
+    },
+    "5F45x7C99GPfTRCm6Daka5iBEfGFA6zpY1WnAXbjeUsw5rnk": {
+      "uid": 252,
+      "hotkey": "5F45x7C99GPfTRCm6Daka5iBEfGFA6zpY1WnAXbjeUsw5rnk",
+      "block": 5317661,
+      "data": "LLystrblu/sn68/main/7f3a5fffafe6fb4482d9.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245761"
+    },
+    "5HjTHBSW1sH88qNCh7eYvyA5xkMHZFMV9FLnf6YRJBtzUWHj": {
+      "uid": 253,
+      "hotkey": "5HjTHBSW1sH88qNCh7eYvyA5xkMHZFMV9FLnf6YRJBtzUWHj",
+      "block": 5309640,
+      "data": "B721nova/submission/main/b96660dda26765f002cb.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245765"
+    },
+    "5GBbDToWJXVcZRSi6P4gUuEfoMhUsrpAjAkTv2RBuuKanogt": {
+      "uid": 254,
+      "hotkey": "5GBbDToWJXVcZRSi6P4gUuEfoMhUsrpAjAkTv2RBuuKanogt",
+      "block": 5309640,
+      "data": "B721nova/submission/main/eb249bf9aa11c2982b7f.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245768"
+    },
+    "5DvnGq8AGNVqa5w7etBJeZPSypDuXSbm13rxy1DeffSAy9tr": {
+      "uid": 255,
+      "hotkey": "5DvnGq8AGNVqa5w7etBJeZPSypDuXSbm13rxy1DeffSAy9tr",
+      "block": 5309280,
+      "data": "B721nova/submission/main/9db03a21e8de58ef59f5.txt",
+      "stake": 0.0,
+      "time": "2025-04-09T22:30:49.245772"
+    }
+  }
+}

@@ -1,0 +1,119 @@
+# Top 10 NOVA Leaderboard Winners
+# Molecules ranked by number of #1 placements
+# Scraped from epochs 14772 to 14770
+# Generated on 2025-04-10 00:45:18
+
+#1: A27305422E4B28BB_959DAE93595E8755_6029_UN
+  SMILES: CC1=C(CCC(=O)O)C(=N[S](=O)(=O)N1[S](C2=C(C)SC(=C2)B(O)O)(=O)=O)C
+  Wins: 1 (ranked #1 in 1 epochs)
+  Frequency: 1/3 epochs
+  Win Ratio: 100.0% of appearances
+  Best Rank: #1
+  Avg Rank: #1.0
+  Avg Score: 0.000
+  Winning Epochs: 14772
+  Most Recent Epochs: 14772
+
+#2: 1C7A98CDE8ACD0A1_1AF3FE1F3B88DCD5_6038_UN
+  SMILES: CC(C)C(CNC(=O)C2=C1COCCC1=NNC2=O)N(CC=C)CC=C
+  Wins: 1 (ranked #1 in 1 epochs)
+  Frequency: 2/3 epochs
+  Win Ratio: 50.0% of appearances
+  Best Rank: #1
+  Avg Rank: #26.5
+  Avg Score: 0.000
+  Winning Epochs: 14771
+  Most Recent Epochs: 14772, 14771
+
+#3: 03B46E9CF0B1C51A_CA95F7729E206E9D_6038_UN
+  SMILES: CCOC(=O)C1(CCOCC1)C(C)NC(C(CCCCCCCC)C)=O
+  Wins: 1 (ranked #1 in 1 epochs)
+  Frequency: 3/3 epochs
+  Win Ratio: 33.3% of appearances
+  Best Rank: #1
+  Avg Rank: #25.3
+  Avg Score: 0.000
+  Winning Epochs: 14770
+  Most Recent Epochs: 14772, 14771, 14770
+
+#4: 927331C476A27723_9E4EE99BCDB49B40_6029_UN
+  SMILES: CC1=N[N](C(=C1C#N)O)[S](C3=C[N]2C(=C(Cl)N=C2C=C3)[S](=O)(=O)Cl)(=O)=O
+  Wins: 0 (ranked #1 in 0 epochs)
+  Frequency: 1/3 epochs
+  Win Ratio: 0.0% of appearances
+  Best Rank: #2
+  Avg Rank: #2.0
+  Avg Score: 0.000
+  Most Recent Epochs: 14772
+
+#5: E4C201D1FCD49878_0A9DBD56AD1A4E3C_6026_UN
+  SMILES: O=[N](=O)C1=C(SC(=C1)[S](=O)(=O)N([S](C)(=O)=O)C2=CC=C(C=C2)B(O)O)Cl
+  Wins: 0 (ranked #1 in 0 epochs)
+  Frequency: 1/3 epochs
+  Win Ratio: 0.0% of appearances
+  Best Rank: #3
+  Avg Rank: #3.0
+  Avg Score: 0.000
+  Most Recent Epochs: 14772
+
+#6: 320DAD8ED01CB873_DBDC7890AD0A060D_6029_UN
+  SMILES: Cl[S](=O)(=O)C1=C3C(=C[N]1[S](C2=CC(=C(B(O)O)S2)I)(=O)=O)[S](CC3)(=O)=O
+  Wins: 0 (ranked #1 in 0 epochs)
+  Frequency: 1/3 epochs
+  Win Ratio: 0.0% of appearances
+  Best Rank: #4
+  Avg Rank: #4.0
+  Avg Score: 0.000
+  Most Recent Epochs: 14772
+
+#7: 3D8BA4D5487C8F47_6362B16A08E6480D_6038_UN
+  SMILES: O(C1CC2CCC(C1)[S]2(=O)=O)C(C3=C([S](C)(=O)=O)C=C(S3)[S](=O)(=O)Cl)=O
+  Wins: 0 (ranked #1 in 0 epochs)
+  Frequency: 1/3 epochs
+  Win Ratio: 0.0% of appearances
+  Best Rank: #5
+  Avg Rank: #5.0
+  Avg Score: 0.000
+  Most Recent Epochs: 14772
+
+#8: E802A80FF97B5E50_978FDD7EFFDC2661_6029_UN
+  SMILES: N([S](=O)(=O)C1CC2CCC1CC2)[S](C3=NC(=C(C=C3)[S](=O)(=O)Cl)F)(=O)=O
+  Wins: 0 (ranked #1 in 0 epochs)
+  Frequency: 1/3 epochs
+  Win Ratio: 0.0% of appearances
+  Best Rank: #6
+  Avg Rank: #6.0
+  Avg Score: 0.000
+  Most Recent Epochs: 14772
+
+#9: ED15FB576B561496_EC7696005EE732DE_6029_UN
+  SMILES: CN(CC23CC1CC(CC(C1)C2)C3)[S](C4=NC(=C(C)S4)[S](=O)(=O)Cl)(=O)=O
+  Wins: 0 (ranked #1 in 0 epochs)
+  Frequency: 1/3 epochs
+  Win Ratio: 0.0% of appearances
+  Best Rank: #7
+  Avg Rank: #7.0
+  Avg Score: 0.000
+  Most Recent Epochs: 14772
+
+#10: 2D3595828D67FDC2_9CCFFAFF13E6237C_6026_UN
+  SMILES: FC(F)(F)C1=NC(=CS1)[S](=O)(=O)N([S](C)(=O)=O)C2=CC=C(C=C2)B(O)O
+  Wins: 0 (ranked #1 in 0 epochs)
+  Frequency: 1/3 epochs
+  Win Ratio: 0.0% of appearances
+  Best Rank: #8
+  Avg Rank: #8.0
+  Avg Score: 0.000
+  Most Recent Epochs: 14772
+
+# Raw molecule list (for easy copy-paste):
+A27305422E4B28BB_959DAE93595E8755_6029_UN	CC1=C(CCC(=O)O)C(=N[S](=O)(=O)N1[S](C2=C(C)SC(=C2)B(O)O)(=O)=O)C
+1C7A98CDE8ACD0A1_1AF3FE1F3B88DCD5_6038_UN	CC(C)C(CNC(=O)C2=C1COCCC1=NNC2=O)N(CC=C)CC=C
+03B46E9CF0B1C51A_CA95F7729E206E9D_6038_UN	CCOC(=O)C1(CCOCC1)C(C)NC(C(CCCCCCCC)C)=O
+927331C476A27723_9E4EE99BCDB49B40_6029_UN	CC1=N[N](C(=C1C#N)O)[S](C3=C[N]2C(=C(Cl)N=C2C=C3)[S](=O)(=O)Cl)(=O)=O
+E4C201D1FCD49878_0A9DBD56AD1A4E3C_6026_UN	O=[N](=O)C1=C(SC(=C1)[S](=O)(=O)N([S](C)(=O)=O)C2=CC=C(C=C2)B(O)O)Cl
+320DAD8ED01CB873_DBDC7890AD0A060D_6029_UN	Cl[S](=O)(=O)C1=C3C(=C[N]1[S](C2=CC(=C(B(O)O)S2)I)(=O)=O)[S](CC3)(=O)=O
+3D8BA4D5487C8F47_6362B16A08E6480D_6038_UN	O(C1CC2CCC(C1)[S]2(=O)=O)C(C3=C([S](C)(=O)=O)C=C(S3)[S](=O)(=O)Cl)=O
+E802A80FF97B5E50_978FDD7EFFDC2661_6029_UN	N([S](=O)(=O)C1CC2CCC1CC2)[S](C3=NC(=C(C=C3)[S](=O)(=O)Cl)F)(=O)=O
+ED15FB576B561496_EC7696005EE732DE_6029_UN	CN(CC23CC1CC(CC(C1)C2)C3)[S](C4=NC(=C(C)S4)[S](=O)(=O)Cl)(=O)=O
+2D3595828D67FDC2_9CCFFAFF13E6237C_6026_UN	FC(F)(F)C1=NC(=CS1)[S](=O)(=O)N([S](C)(=O)=O)C2=CC=C(C=C2)B(O)O

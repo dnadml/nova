@@ -1,0 +1,12 @@
+{
+    "url": "https://dashboard-frontend-dusky.vercel.app",
+    "output_dir": "./nova_data",
+    "start_epoch": 14748,
+    "end_epoch": 14745,
+    "timeout": 30,
+    "navigation_delay": 2.0,
+    "action_delay": 1.0,
+    "retries": 3,
+    "take_screenshots": true,
+    "verbose": true
+}
