@@ -145,9 +145,187 @@ class NovaDashboardScraper:
             self.driver.quit()
             self._save_database()
     
+    
+    def _scroll_dropdown_to_find_epoch(self, epoch_number):
+        """
+        Specialized method to handle long dropdowns where scrolling is needed
+        to find the specific epoch.
+        
+        Returns:
+            bool: True if successfully selected the epoch, False otherwise
+        """
+        try:
+            # First, find and click the dropdown to open it
+            dropdown_selectors = self.driver.find_elements(By.XPATH, 
+                "//button[contains(text(), 'Epoch')] | "
+                "//div[contains(@role, 'button') and contains(text(), 'Epoch')] | "
+                "//div[contains(@class, 'dropdown') and contains(text(), 'Epoch')]"
+            )
+            
+            if not dropdown_selectors:
+                logger.warning("No epoch dropdown selectors found")
+                return False
+            
+            # Click to open the dropdown
+            logger.info(f"Clicking dropdown: {dropdown_selectors[0].text}")
+            self.driver.execute_script("arguments[0].click();", dropdown_selectors[0])
+            time.sleep(1.5)  # Wait for dropdown to open
+            
+            # Take a screenshot of the opened dropdown
+            self.driver.save_screenshot(f"{self.output_dir}/screenshots/dropdown_open_{epoch_number}.png")
+            
+            # Find the dropdown menu/list container
+            dropdown_containers = self.driver.find_elements(By.XPATH,
+                "//div[contains(@class, 'dropdown-menu')] | "
+                "//div[contains(@class, 'menu')] | "
+                "//div[contains(@class, 'list')] | "
+                "//ul[contains(@class, 'dropdown-menu')] | "
+                "//ul[contains(@class, 'menu')]"
+            )
+            
+            # If no container found, try finding any newly appeared elements after clicking
+            if not dropdown_containers:
+                # Get all elements that might be part of the dropdown
+                all_elements = self.driver.find_elements(By.XPATH, "//div | //ul | //ol")
+                # Filter to those that contain "Epoch" text anywhere in them
+                dropdown_containers = [elem for elem in all_elements 
+                                      if "Epoch" in elem.text and len(elem.text.split('\n')) > 3]
+            
+            if not dropdown_containers:
+                logger.warning("Could not find dropdown container")
+                return False
+            
+            # Use the first dropdown container
+            dropdown_container = dropdown_containers[0]
+            logger.info(f"Found dropdown container with {len(dropdown_container.text.split())} items")
+            
+            # Check if our target epoch is already visible in the container
+            visible_text = dropdown_container.text
+            if f"Epoch {epoch_number}" in visible_text or f"epoch {epoch_number}" in visible_text.lower():
+                logger.info(f"Target epoch {epoch_number} is visible in dropdown")
+                
+                # Find the specific option for our epoch
+                epoch_options = dropdown_container.find_elements(By.XPATH,
+                    f".//div[contains(text(), 'Epoch {epoch_number}')] | "
+                    f".//div[text()='{epoch_number}'] | "
+                    f".//li[contains(text(), 'Epoch {epoch_number}')] | "
+                    f".//li[text()='{epoch_number}']"
+                )
+                
+                if epoch_options:
+                    logger.info(f"Found epoch option: {epoch_options[0].text}")
+                    self.driver.execute_script("arguments[0].click();", epoch_options[0])
+                    time.sleep(1.5)
+                    return self._verify_epoch_navigation(epoch_number)
+            
+            # Target epoch not visible - need to scroll to find it
+            logger.info(f"Target epoch {epoch_number} not immediately visible, scrolling to find it")
+            
+            # First, determine which direction to scroll based on current epoch vs target
+            current_epoch_text = dropdown_selectors[0].text
+            current_epoch_match = re.search(r'Epoch\s+(\d+)', current_epoch_text)
+            
+            if current_epoch_match:
+                current_epoch = int(current_epoch_match.group(1))
+                logger.info(f"Current epoch is {current_epoch}, target is {epoch_number}")
+                
+                # Determine scroll direction (up or down)
+                if epoch_number < current_epoch:
+                    logger.info(f"Need to scroll DOWN to find older epoch {epoch_number}")
+                    scroll_direction = "down"
+                else:
+                    logger.info(f"Need to scroll UP to find newer epoch {epoch_number}")
+                    scroll_direction = "up"
+            else:
+                # If we can't determine the current epoch, default to scrolling down
+                logger.info(f"Could not determine current epoch, defaulting to scroll down")
+                scroll_direction = "down"
+            
+            # Scroll progressively in the dropdown to find our epoch
+            max_scroll_attempts = 20
+            for attempt in range(max_scroll_attempts):
+                logger.info(f"Scroll attempt {attempt+1}/{max_scroll_attempts}")
+                
+                # Scroll in the appropriate direction
+                if scroll_direction == "down":
+                    self.driver.execute_script(
+                        "arguments[0].scrollTop = arguments[0].scrollTop + 200;", 
+                        dropdown_container
+                    )
+                else:
+                    self.driver.execute_script(
+                        "arguments[0].scrollTop = arguments[0].scrollTop - 200;", 
+                        dropdown_container
+                    )
+                
+                time.sleep(0.5)  # Wait for scroll to complete
+                
+                # Take a screenshot after each scroll to see what's visible
+                if attempt % 5 == 0:  # Every 5 attempts to avoid too many screenshots
+                    self.driver.save_screenshot(
+                        f"{self.output_dir}/screenshots/dropdown_scroll_{epoch_number}_attempt_{attempt+1}.png"
+                    )
+                
+                # Check if our target epoch is now visible
+                updated_visible_text = dropdown_container.text
+                if f"Epoch {epoch_number}" in updated_visible_text or f"epoch {epoch_number}" in updated_visible_text.lower():
+                    logger.info(f"Found target epoch {epoch_number} after scrolling!")
+                    
+                    # Find the specific option for our epoch
+                    epoch_options = dropdown_container.find_elements(By.XPATH,
+                        f".//div[contains(text(), 'Epoch {epoch_number}')] | "
+                        f".//div[text()='{epoch_number}'] | "
+                        f".//li[contains(text(), 'Epoch {epoch_number}')] | "
+                        f".//li[text()='{epoch_number}']"
+                    )
+                    
+                    if epoch_options:
+                        logger.info(f"Found epoch option: {epoch_options[0].text}")
+                        self.driver.execute_script("arguments[0].click();", epoch_options[0])
+                        time.sleep(1.5)
+                        return self._verify_epoch_navigation(epoch_number)
+                    else:
+                        logger.warning(f"Text indicates epoch {epoch_number} is visible, but couldn't find clickable element")
+                
+                # Try an alternative approach - look for any elements within the container that have our epoch
+                all_items = dropdown_container.find_elements(By.XPATH, ".//*")
+                for item in all_items:
+                    try:
+                        item_text = item.text.strip()
+                        if f"Epoch {epoch_number}" in item_text or item_text == str(epoch_number):
+                            logger.info(f"Found item with text: {item_text}")
+                            self.driver.execute_script("arguments[0].click();", item)
+                            time.sleep(1.5)
+                            if self._verify_epoch_navigation(epoch_number):
+                                return True
+                    except:
+                        continue
+            
+            logger.warning(f"Could not find epoch {epoch_number} after {max_scroll_attempts} scroll attempts")
+            
+            # Close the dropdown by clicking elsewhere
+            try:
+                body = self.driver.find_element(By.TAG_NAME, "body")
+                self.driver.execute_script("arguments[0].click();", body)
+            except:
+                pass
+            
+            return False
+            
+        except Exception as e:
+            logger.error(f"Error in dropdown scrolling: {e}")
+            
+            # Try to close the dropdown to clean up
+            try:
+                body = self.driver.find_element(By.TAG_NAME, "body")
+                self.driver.execute_script("arguments[0].click();", body)
+            except:
+                pass
+            
+            return False
     def _navigate_to_epoch(self, epoch_number):
         """
-        Try multiple strategies to navigate to a specific epoch
+        Navigate to a specific epoch using a more robust approach with dropdown scrolling
         
         Returns:
             bool: True if navigation was successful, False otherwise
@@ -155,166 +333,150 @@ class NovaDashboardScraper:
         # Backup the current page in case we need to restore
         current_url = self.driver.current_url
         
-        # Take a screenshot before trying to navigate
-        self.driver.save_screenshot(f"{self.output_dir}/screenshots/before_epoch_{epoch_number}.png")
+        logger.info(f"Attempting to navigate to epoch {epoch_number}")
         
         for attempt in range(self.retries):
             try:
-                # Based on the screenshots, we can now target the exact UI elements
                 print(f"Attempt {attempt+1}/{self.retries} to navigate to epoch {epoch_number}")
                 
-                # Strategy 1: Look for the dropdown with "Epoch XXXXX" text in the UI
-                try:
-                    # Look for the epoch dropdown/button in the "Competition Tracker" section
-                    epoch_dropdown_elements = self.driver.find_elements(
-                        By.XPATH, 
-                        "//div[contains(text(), 'Epoch')] | //span[contains(text(), 'Epoch')] | //button[contains(text(), 'Epoch')]"
-                    )
-                    
-                    if epoch_dropdown_elements:
-                        logger.info(f"Found {len(epoch_dropdown_elements)} epoch dropdown elements")
-                        
-                        for i, dropdown in enumerate(epoch_dropdown_elements):
-                            try:
-                                # First, check if this element already shows the correct epoch
-                                if str(epoch_number) in dropdown.text:
-                                    logger.info(f"Already on epoch {epoch_number}")
-                                    return True
-                                
-                                # Scroll to make the dropdown visible
-                                self.driver.execute_script("arguments[0].scrollIntoView(true);", dropdown)
-                                time.sleep(0.5)
-                                
-                                # Click to open the dropdown
-                                logger.info(f"Clicking epoch dropdown {i+1}: {dropdown.text}")
-                                self.driver.execute_script("arguments[0].click();", dropdown)
-                                time.sleep(self.action_delay)
-                                
-                                # Now look for the specific epoch in the dropdown list
-                                # Based on the screenshot, each epoch is in its own div/row
-                                epoch_options = self.driver.find_elements(
-                                    By.XPATH, 
-                                    f"//div[contains(text(), 'Epoch {epoch_number}')] | //span[contains(text(), 'Epoch {epoch_number}')]"
-                                )
-                                
-                                if epoch_options:
-                                    logger.info(f"Found {len(epoch_options)} options for epoch {epoch_number}")
-                                    
-                                    for option in epoch_options:
-                                        try:
-                                            # Scroll to make the option visible
-                                            self.driver.execute_script("arguments[0].scrollIntoView(true);", option)
-                                            time.sleep(0.5)
-                                            
-                                            # Click the option
-                                            logger.info(f"Clicking epoch option: {option.text}")
-                                            self.driver.execute_script("arguments[0].click();", option)
-                                            time.sleep(self.action_delay * 2)  # Extra time for page to update
-                                            
-                                            # Check if navigation was successful
-                                            if self._verify_epoch_navigation(epoch_number):
-                                                return True
-                                        except Exception as e:
-                                            logger.warning(f"Error clicking epoch option: {e}")
-                                            continue
-                            except Exception as e:
-                                logger.warning(f"Error with epoch dropdown {i+1}: {e}")
-                                continue
-                except Exception as e:
-                    logger.warning(f"Error finding epoch dropdown: {e}")
+                # First, check if we're already on the right epoch
+                if self._verify_epoch_navigation(epoch_number):
+                    logger.info(f"Already on epoch {epoch_number}")
+                    return True
                 
-                # Strategy 2: Look at the left panel sidebar with list of epochs (visible in screenshot 3)
+                # STRATEGY 1: Use the specialized dropdown scrolling method
+                logger.info("Trying dropdown scrolling method...")
+                if self._scroll_dropdown_to_find_epoch(epoch_number):
+                    return True
+                
+                # STRATEGY 2: Look for epoch numbers in the sidebar
+                logger.info("Trying sidebar navigation method...")
                 try:
-                    # Look for elements in the sidebar that contain the epoch text
-                    sidebar_epoch_elements = self.driver.find_elements(
-                        By.XPATH, 
-                        f"//div[contains(text(), 'Epoch {epoch_number}')] | //span[contains(text(), 'Epoch {epoch_number}')]"
-                    )
+                    sidebar_epochs = self.driver.find_elements(By.XPATH, 
+                        f"//div[contains(@class, 'sidebar') or contains(@class, 'nav')]//div[contains(text(), '{epoch_number}')]")
                     
-                    if sidebar_epoch_elements:
-                        logger.info(f"Found {len(sidebar_epoch_elements)} sidebar elements for epoch {epoch_number}")
+                    if sidebar_epochs:
+                        logger.info(f"Found {len(sidebar_epochs)} sidebar elements for epoch {epoch_number}")
                         
-                        for i, element in enumerate(sidebar_epoch_elements):
+                        for sidebar_epoch in sidebar_epochs:
                             try:
-                                # Scroll to make the element visible
-                                self.driver.execute_script("arguments[0].scrollIntoView(true);", element)
+                                # Scroll to element
+                                self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", sidebar_epoch)
                                 time.sleep(0.5)
                                 
                                 # Click the element
-                                logger.info(f"Clicking sidebar epoch element {i+1}: {element.text}")
-                                self.driver.execute_script("arguments[0].click();", element)
-                                time.sleep(self.action_delay * 2)  # Extra time for page to update
+                                logger.info(f"Clicking sidebar epoch: {sidebar_epoch.text}")
+                                self.driver.execute_script("arguments[0].click();", sidebar_epoch)
+                                time.sleep(2)
                                 
-                                # Check if navigation was successful
+                                # Verify navigation
                                 if self._verify_epoch_navigation(epoch_number):
                                     return True
                             except Exception as e:
-                                logger.warning(f"Error clicking sidebar epoch element {i+1}: {e}")
-                                continue
+                                logger.warning(f"Error clicking sidebar epoch: {e}")
                 except Exception as e:
-                    logger.warning(f"Error finding sidebar epoch elements: {e}")
+                    logger.warning(f"Error finding sidebar epochs: {e}")
                 
-                # Strategy 3: Check if the page title/header already shows the correct epoch
+                # STRATEGY 3: Direct URL manipulation if possible
+                logger.info("Trying URL manipulation method...")
                 try:
-                    # Look for the page header that should contain the epoch number
-                    header_elements = self.driver.find_elements(
-                        By.XPATH, 
-                        "//h1 | //h2 | //h3 | //div[contains(@class, 'header')] | //div[contains(@class, 'title')]"
-                    )
-                    
-                    for header in header_elements:
-                        if f"Epoch {epoch_number}" in header.text or f"Leaderboard - Epoch {epoch_number}" in header.text:
-                            logger.info(f"Already on epoch {epoch_number} as indicated by header: {header.text}")
+                    # Check if the current URL has a pattern we can modify
+                    current_url = self.driver.current_url
+                    if 'epoch=' in current_url or '/epoch/' in current_url:
+                        # Try to construct a URL with the target epoch
+                        if 'epoch=' in current_url:
+                            new_url = re.sub(r'epoch=\d+', f'epoch={epoch_number}', current_url)
+                        else:
+                            new_url = re.sub(r'/epoch/\d+', f'/epoch/{epoch_number}', current_url)
+                        
+                        logger.info(f"Attempting direct URL navigation to: {new_url}")
+                        self.driver.get(new_url)
+                        time.sleep(2)
+                        
+                        # Verify navigation
+                        if self._verify_epoch_navigation(epoch_number):
                             return True
                 except Exception as e:
-                    logger.warning(f"Error checking page headers: {e}")
+                    logger.warning(f"Error with direct URL navigation: {e}")
                 
-                # If all strategies failed, refresh and try again
+                # If all strategies failed on this attempt, refresh the page before trying again
                 if attempt < self.retries - 1:
                     logger.warning(f"Navigation attempt {attempt+1} failed, refreshing page")
                     self.driver.refresh()
-                    time.sleep(self.navigation_delay * 2)  # Extra time for page to load
+                    time.sleep(3)  # Wait longer for refresh
             
             except Exception as e:
                 logger.error(f"Error during navigation attempt {attempt+1}: {e}")
+                
+                # Try to restore the page before next attempt
                 if attempt < self.retries - 1:
-                    # Try to restore the page
                     try:
                         self.driver.get(current_url)
-                        time.sleep(self.navigation_delay)
+                        time.sleep(2)
                     except:
                         pass
         
         logger.error(f"Failed to navigate to epoch {epoch_number} after {self.retries} attempts")
         return False
-    
     def _verify_epoch_navigation(self, epoch_number):
         """Verify that we've successfully navigated to the specified epoch"""
         try:
-            # Take a screenshot to see what's on the page
-            self.driver.save_screenshot(f"{self.output_dir}/screenshots/verify_epoch_{epoch_number}.png")
+            # Check for epoch indicators in multiple ways
             
-            # Check for the epoch number in the page text
-            page_text = self.driver.find_element(By.TAG_NAME, "body").text
+            # 1. Look for elements that specifically show the current epoch
+            epoch_indicators = self.driver.find_elements(By.XPATH, 
+                f"//div[contains(@class, 'title') or contains(@class, 'header')]//span[contains(text(), 'Epoch {epoch_number}')] | "
+                f"//h1[contains(text(), 'Epoch {epoch_number}')] | "
+                f"//h2[contains(text(), 'Epoch {epoch_number}')] | "
+                f"//h3[contains(text(), 'Epoch {epoch_number}')] | "
+                f"//div[contains(text(), 'Epoch') and contains(text(), '{epoch_number}')]"
+            )
             
-            # Check for exact epoch number match with the word "Epoch" nearby
-            if f"Epoch {epoch_number}" in page_text or f"epoch {epoch_number}" in page_text.lower():
-                logger.info(f"Successfully navigated to epoch {epoch_number}")
+            if epoch_indicators:
+                logger.info(f"Found epoch indicator: {epoch_indicators[0].text}")
                 return True
-                
-            # Check if the epoch number appears anywhere on the page
-            if str(epoch_number) in page_text:
-                # Look for any elements with the epoch number
-                epoch_elements = self.driver.find_elements(By.XPATH, f"//*[contains(text(), '{epoch_number}')]")
-                for element in epoch_elements:
-                    # Check if this element or its parent contains the word "Epoch"
-                    element_text = element.text.lower()
-                    if 'epoch' in element_text:
-                        logger.info(f"Found epoch indicator with text: {element.text}")
-                        return True
             
+            # 2. Look for the epoch dropdown to see if it shows the current epoch
+            dropdown_elements = self.driver.find_elements(By.XPATH,
+                "//button[contains(text(), 'Epoch')] | "
+                "//div[contains(@role, 'button') and contains(text(), 'Epoch')]"
+            )
+            
+            for dropdown in dropdown_elements:
+                if f"Epoch {epoch_number}" in dropdown.text or f"epoch {epoch_number}" in dropdown.text.lower():
+                    logger.info(f"Dropdown shows correct epoch: {dropdown.text}")
+                    return True
+            
+            # 3. Look for the leaderboard title with epoch number
+            leaderboard_headers = self.driver.find_elements(By.XPATH,
+                f"//div[contains(text(), 'Leaderboard') and contains(text(), '{epoch_number}')] | "
+                f"//h2[contains(text(), 'Leaderboard') and contains(text(), '{epoch_number}')] | "
+                f"//h3[contains(text(), 'Leaderboard') and contains(text(), '{epoch_number}')]"
+            )
+            
+            if leaderboard_headers:
+                logger.info(f"Found leaderboard header for epoch {epoch_number}: {leaderboard_headers[0].text}")
+                return True
+            
+            # 4. Check for molecules or submissions sections that mention the epoch
+            submission_sections = self.driver.find_elements(By.XPATH,
+                f"//div[contains(text(), 'Submissions') and contains(text(), '{epoch_number}')] | "
+                f"//div[contains(text(), 'Molecules') and contains(text(), '{epoch_number}')]"
+            )
+            
+            if submission_sections:
+                logger.info(f"Found submission section for epoch {epoch_number}: {submission_sections[0].text}")
+                return True
+            
+            # 5. Check URL if it contains the epoch number
+            if f"epoch={epoch_number}" in self.driver.current_url or f"/epoch/{epoch_number}" in self.driver.current_url:
+                logger.info(f"URL contains epoch {epoch_number}: {self.driver.current_url}")
+                return True
+            
+            # If all checks fail, log and return False
             logger.warning(f"Could not verify navigation to epoch {epoch_number}")
             return False
+        
         except Exception as e:
             logger.error(f"Error verifying epoch navigation: {e}")
             return False

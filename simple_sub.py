@@ -25,11 +25,11 @@ def parse_args():
     """Parse command line arguments."""
     parser = argparse.ArgumentParser(description="Simple scheduler to submit molecules at exact block")
     
-    parser.add_argument("--blocks-before-end", type=int, default=2,
+    parser.add_argument("--blocks-before-end", type=int, default=1,
                       help="Submit molecules when this many blocks remain until epoch end (default: 1)")
     parser.add_argument("--commitment-data", type=str, default="./pre_encrypted/commitment_data.txt",
                       help="Path to pre-encrypted commitment data file")
-    parser.add_argument("--check-interval", type=float, default=3.0,
+    parser.add_argument("--check-interval", type=float, default=1.0,
                       help="Check interval in seconds (default: 3.0)")
     parser.add_argument("--commit-script", type=str, default="./parallel_batch_commit.py",
                       help="Path to batch commit script")
